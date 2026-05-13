@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-/* Existing defects */
-
 int integer_overflow(int a) {
     int x = a * 100000;
     return x;   // DEFECT 1: INTEGER_OVERFLOW
@@ -22,7 +20,7 @@ void wrong_free() {
 void unchecked_return() {
     char buf[8];
     strncpy(buf, "VeryLongInputString", sizeof(buf));
-    // DEFECT 4: STRING_TRUNCATION
+    // DEFECT 4: STRING_TRUNCATION / UNCHECKED_RETURN
 }
 
 void null_pointer_deref() {
@@ -40,16 +38,11 @@ void use_after_free() {
     printf("%d\n", *ptr);   // DEFECT 6: USE_AFTER_FREE
 }
 
+/* -------- NEW DEFECT ADDED -------- */
+
 void format_string_vulnerability() {
     char user_input[] = "%x %x %x %x";
     printf(user_input);   // DEFECT 7: FORMAT_STRING
-}
-
-/* -------- NEW GUARANTEED DEFECT -------- */
-
-void unsafe_gets() {
-    char buf[8];
-    gets(buf);   // DEFECT 8: UNSAFE_API / BUFFER_OVERFLOW (ALWAYS DETECTED)
 }
 
 int main() {
@@ -60,6 +53,7 @@ int main() {
     null_pointer_deref();
     use_after_free();
     format_string_vulnerability();
-    unsafe_gets();
     return 0;
 }
+
+/* -------- new change made from my side  -------- */
