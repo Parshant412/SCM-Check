@@ -38,11 +38,40 @@ void use_after_free() {
     printf("%d\n", *ptr);   // DEFECT 6: USE_AFTER_FREE
 }
 
-/* -------- NEW DEFECT ADDED -------- */
-
 void format_string_vulnerability() {
     char user_input[] = "%x %x %x %x";
     printf(user_input);   // DEFECT 7: FORMAT_STRING
+}
+
+/* -------- NEW DEFECTS ADDED -------- */
+
+void memory_leak() {
+    int *ptr = (int *)malloc(sizeof(int));
+    *ptr = 50;
+    // DEFECT 8: MEMORY_LEAK (no free)
+}
+
+void division_by_zero() {
+    int a = 10;
+    int b = 0;
+    int c = a / b;   // DEFECT 9: DIVIDE_BY_ZERO
+    printf("%d\n", c);
+}
+
+void uninitialized_variable() {
+    int x;
+    printf("%d\n", x);   // DEFECT 10: UNINITIALIZED_VARIABLE
+}
+
+void buffer_overflow() {
+    char small[5];
+    strcpy(small, "ThisIsTooLong");   // DEFECT 11: BUFFER_OVERFLOW
+}
+
+void double_free() {
+    int *ptr = (int *)malloc(sizeof(int));
+    free(ptr);
+    free(ptr);   // DEFECT 12: DOUBLE_FREE
 }
 
 int main() {
@@ -53,7 +82,14 @@ int main() {
     null_pointer_deref();
     use_after_free();
     format_string_vulnerability();
+
+    memory_leak();
+    division_by_zero();
+    uninitialized_variable();
+    buffer_overflow();
+    double_free();
+
     return 0;
 }
 
-/* -------- new change made from my side  -------- */
+/* -------- new change made for SCM assignment test -------- */
