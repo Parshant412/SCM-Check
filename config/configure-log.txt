@@ -1,0 +1,3 @@
+Native Compiler and extra args: ./ 
+Working directory: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check
+Comptype: clangcc

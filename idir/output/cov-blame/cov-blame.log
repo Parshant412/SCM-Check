@@ -1,0 +1,31 @@
+[LOG] Command line: /Users/prashant/Coverity/Coverity_install/bin/../bin/cov-blame --dir /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir --preview-report /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output/preview-report.json --owner-assignment-rules all_events --quiet --scm git --scm-project-root . --outputdir /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output
+[INFO] Computing likely owner for 11526 [309a4a5df14ac232b438265c1c614ab0]:
+[LOG] File /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c exists in db but does not have scm info. Will run cov-extract-scm.
+[LOG] run: /Users/prashant/Coverity/Coverity_install/bin/cov-extract-scm --scm git --tool /usr/bin/git --input /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output/cov-blame/files.out --output /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output/cov-blame/scm-annots.json --project-root .
+Extracting SCM data for 1 file...
+|0----------25-----------50----------75---------100|
+****************************************************
+
+Successfully extracted SCM data for 1 file (100%).
+[LOG] /Users/prashant/Coverity/Coverity_install/bin/cov-extract-scm exits successfully.
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 12614 [8ab99ca2372cce7ae72daf703d729762]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 12613 [6c29c53a0ebece53f444b2cb1cecbb26]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 11528 [30560d300107984cae4dba3e6a648254]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 12610 [b33d36b0510072c0c818fa5eef1fcf4f]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 11527 [4b05bc13f28ceb6d54e8aa947e314596]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 12612 [16a399639eab4975261460ece8f3657d]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 11524 [c3b02abc5dc684b3cc8da252eed4a175]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 12611 [395f9d9b0135946a2c13a2fddecc24b7]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 11529 [6de9ea07937ceaf97078fef3ee0c21c2]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com
+[INFO] Computing likely owner for 12615 [c4b12e49da8f4a3283106521fc72598e]:
+[INFO] 	all_events: 113189040+Parshant412@users.noreply.github.com

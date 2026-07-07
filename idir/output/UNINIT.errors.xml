@@ -1,0 +1,27 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>UNINIT</checker>
+<type>uninit</type>
+<subtype>scalar</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>uninitialized_variable</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>var_decl</tag>
+<description>{CovLStrv2{{t{Declaring variable {0} without initializer.}{{code{x}}}}}}</description>
+<line>62</line>
+<column>5</column>
+</event>
+<event>
+<main>true</main>
+<tag>uninit_use_in_call</tag>
+<description>{CovLStrv2{{t{Using uninitialized value {0} when calling {1}.}{{code{x}}}{{code{printf}}}}}}</description>
+<line>63</line>
+<column>5</column>
+</event>
+<extra>x</extra>
+<subcategory>none</subcategory>
+</error>

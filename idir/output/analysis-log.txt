@@ -1,0 +1,195 @@
+cmdline: command line: cov-analyze --dir idir --aggressiveness-level high 
+cmdline: parsed cmdline: [
+cmdline:   { name: "dir", args: [ "idir" ] },
+cmdline:   { name: "aggressiveness-level", args: [ "high" ] },
+cmdline:   { name: "config", args: [ "/Users/prashant/Coverity/Coverity_install/config/coverity_config.xml" ] },
+cmdline: ]
+startup: am_pid=78332
+startup: detected platform: Darwin 25.4.0 arm64
+startup: target platform: macos-arm
+startup: Detected 14 logical cpus
+startup: Detected 14 cpu cores
+startup: host name: BD-MB83065
+startup: user name: prashant
+startup: Analysis version: 2025.12.2 (1e12482239 p-2025.12-push-44)
+startup: temp directory: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/fb5187f5f6d20f816de42cba6541275e
+startup: enable_constraint_fpp=0
+startup: current time: 2026-May-22 11:07:27
+startup: Detected amount of memory: 25165824kb
+startup: Limiting memory to 22649241kb
+startup: mem limit: setrlimit failed: Invalid argument
+startup: Using 14 workers as limited by CPU(s)
+Sigma checker-properties info: Capturing Sigma checker properties...
+Sigma checker-properties info: Command line for sigma /Users/prashant/Coverity/Coverity_install/sigma/bin/sigma internal-coverity-integration checker-properties --protocol-version 1 /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/fb5187f5f6d20f816de42cba6541275e/sigma-checker-properties.json
+Sigma checker-properties info: Exit status: code 0
+Sigma checker-properties info: Loaded 7618 checker properties for Sigma.
+emit: Selected 1 TUs
+tus: tuIndex 0 -> rowID 1
+wlink: Identifying web applications
+wlink: Linking web-app archive bytecode
+wlink: Web-app linker scanned 0 web-apps (found: 0 classfiles, 0 jars, and 0 other files)
+wlink: Webapps domains found: 0 Android app domains found: 1
+emitdb: callgraph.cpp:2756 11111111
+emitdb: callgraph.cpp:2786 11000011
+emitdb: callgraph.cpp:2806 11000011
+codexm: Initializing data gathered from CodeXM
+directives: ===== User directives:
+directives: === Language: apex
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cpp
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cs
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: cuda
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: dart
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: fortran
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: go
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: java
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: javascript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: kotlin
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: objc
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: php
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python2
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: python3
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: ruby
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: rust
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: scala
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: swift
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: text-files
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: typescript
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+directives: === Language: vb
+directives: Directive Kind                                     Number
+directives: --------------                                     ------
+rta: Not running RTA because it doesn't apply to current languages
+emit: 13 analyzable symbols in callgraph
+emitdb: callgraph.cpp:2858 11000000
+dyncg: N/A or no data
+general: Starting analysis
+Sigma analysis info: Running sigma analysis...
+Sigma analysis info: Using Sigma version: 2025.11.0
+Sigma analysis info: Command line for sigma /Users/prashant/Coverity/Coverity_install/sigma/bin/sigma --config /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output/sigma-config.json analyze /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output/sigma
+Sigma analysis info: Files dumped: 1
+Sigma analysis info: Exit status: 0
+Sigma stdout: Copyright (c) 2025 Black Duck Software, Inc.
+Sigma stdout: Sigma version : 2025.11.0
+Sigma stdout: For documentation and support, visit https://documentation.blackduck.com/bundle/sigma-ug/page/topics/sigma_user_guide.html
+Sigma stdout: By using this software, the user accepts the terms of Black Duck Software's end user software license and maintenance agreement found at: https://www.blackduck.com/company/legal.html
+Sigma stdout: 
+Sigma stdout: 2026-05-22 05:37:29 INFO Telemetry data conforms to schema e64f13671933fe956d8d8d73fa1d2a2308642cb2c67680b84fd4d1910a106893
+Sigma stdout: 2026-05-22 05:37:29 INFO Analysis done in 0 seconds
+Sigma stdout: 2026-05-22 05:37:29 INFO Found 0 defects
+Sigma stdout: 
+Sigma stdout: Identified
+Sigma stdout: 
+Sigma stdout: │File Type│Occurrences│
+Sigma stdout: ├─────────┼───────────┤
+Sigma stdout: │C        │          1│
+Sigma stdout: 
+Sigma stdout: 
+Sigma stdout: No issues found after 0 seconds
+dm-access-lib: AM listening for DM at 127.0.0.1:54690
+dm-access-lib: AM starting DM with command line: /Users/prashant/Coverity/Coverity_install/bin/cov-internal-dm --AM-port 54690 --log-file /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output/distributor.log -j 14 --AW-timeout 36000 /Users/prashant/Coverity/Coverity_install/bin/cov-analyze --worker --message-size-limit 104857600
+dm-access-lib: DM started: dm_pid=78347
+dm-access-lib: AM got connection from DM: (local) 127.0.0.1:54690 - 127.0.0.1:54691 (remote)
+makeWUP: ENABLE_ONLY0
+makeWUP: stat0
+makeWUP: stat1
+wurlegend: <phase><n> dw_id wup_bytes dw_ms wur_bytes aw_ms [mem] paths (rest are labeled)
+wur: stat1 1 10380 498 299 9 14 nr=13 n: batch 0
+makeWUP: stat2
+makeWUP: gen0
+makeWUP: gen1
+makeWUP: gen2
+makeWUP: gen4
+makeWUP: gen8
+makeWUP: gen12
+makeWUP: gen11
+makeWUP: gen10
+makeWUP: gen9
+makeWUP: gen7
+makeWUP: gen6
+makeWUP: gen5
+makeWUP: gen3
+wur: gen3 1 4840 129 334 128 2 n: division_by_zero in TU 1
+wur: gen10 2 4790 635 292 121 2 n: uninitialized_variable in TU 1
+wur: gen4 4 5197 634 292 120 2 n: double_free in TU 1
+wur: gen7 3 4825 636 508 123 2 n: memory_leak in TU 1
+wur: gen2 5 5212 636 497 124 1 n: buffer_overflow in TU 1
+makeWUP: gen13
+wur: gen13 1 6782 2 327 2 2 n: main in TU 1
+makeWUP: gen14
+makeWUP: PER_TU0
+makeWUP: PER_TU1
+tu_timing: 1 ms spent on tu 1
+makeWUP: PER_TU2
+makeWUP: fnsaftertus0
+makeWUP: fnsaftertus1
+wur: fnsaftertus1 1 11328 0 12 0 0 nr=13 n: batch 0
+makeWUP: fnsaftertus2
+summary: Analysis summary report:
+summary: ------------------------
+summary: Files analyzed                 : 1 Total
+summary:     C++                        : 1
+summary: Total LoC input to cov-analyze : 11913
+summary: Functions analyzed             : 13
+summary: Paths analyzed                 : 25
+summary: Time taken by analysis         : 00:00:03
+summary: Defect occurrences found       : 11 Total
+summary:                                   1 BAD_FREE
+summary:                                   1 DC.STRING_BUFFER
+summary:                                   1 DIVIDE_BY_ZERO
+summary:                                   1 FORWARD_NULL
+summary:                                   1 NULL_RETURNS
+summary:                                   2 OVERRUN
+summary:                                   1 RESOURCE_LEAK
+summary:                                   1 UNINIT
+summary:                                   2 USE_AFTER_FREE
+summary: TU Language    Capture    TU Count
+summary: -----------    -------    --------
+summary: C++            Build         1
+summary: Number of functions: 13
+summary: out_of_memory count: 0
+summary: paths_exceeded count: 0
+summary: recoverable failures: 0
+summary: cpp-wu-time-milliseconds: 9608
+summary: all-wu-time-milliseconds: 9608
+mem: AM peak mem bytes: 0
+assert: suppressed asserts: workers=0, master=0
+failures: recoverable failures: workers=0, master=0

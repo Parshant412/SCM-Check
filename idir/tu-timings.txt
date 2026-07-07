@@ -1,0 +1,5 @@
+Translation unit:
+1 -> /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c
+cov-emit invocation time (seconds): 0
+cov-translate invocation time (seconds): 2
+cov-build invocation time (seconds): 7

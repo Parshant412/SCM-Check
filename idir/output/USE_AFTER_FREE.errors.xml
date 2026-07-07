@@ -1,0 +1,72 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>USE_AFTER_FREE</checker>
+<type>use_after_free</type>
+<subtype>deref_read_after_free</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>use_after_free</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>cond_false</tag>
+<description>{CovLStrv2{{t{Condition {0}, taking false branch.}{{code{ptr == NULL}}}}}}</description>
+<line>33</line>
+<column>5</column>
+<path_event>
+<jump>true</jump>
+</path_event>
+</event>
+<event>
+<tag>if_end</tag>
+<description>{CovLStrv2{{t{End of if statement.}}}}</description>
+<line>35</line>
+<column>5</column>
+<path_event>
+<suppressible>true</suppressible>
+</path_event>
+</event>
+<event>
+<tag>freed_arg</tag>
+<description>{CovLStrv2{{t{{0} frees {1}.}{{code{free}}}{{code{ptr}}}}}}</description>
+<line>37</line>
+<column>5</column>
+</event>
+<event>
+<main>true</main>
+<tag>deref_after_free</tag>
+<description>{CovLStrv2{{t{Dereferencing freed pointer {0}.}{{code{ptr}}}}}}</description>
+<line>38</line>
+<column>5</column>
+</event>
+<extra>ptr</extra>
+<subcategory>deref_read_after_free</subcategory>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>USE_AFTER_FREE</checker>
+<type>use_after_free</type>
+<subtype>double_free</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>double_free</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>freed_arg</tag>
+<description>{CovLStrv2{{t{{0} frees {1}.}{{code{free}}}{{code{ptr}}}}}}</description>
+<line>73</line>
+<column>5</column>
+</event>
+<event>
+<main>true</main>
+<tag>double_free</tag>
+<description>{CovLStrv2{{t{Calling {0} frees pointer {1} which has already been freed.}{{code{free}}}{{code{ptr}}}}}}</description>
+<line>74</line>
+<column>5</column>
+</event>
+<extra>ptr</extra>
+<subcategory>double_free</subcategory>
+</error>

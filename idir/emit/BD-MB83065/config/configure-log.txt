@@ -1,0 +1,58 @@
+Auto Detect Comptype: clangcc
+Auto detect not previously cached.
+Candidate Comptype: clangcc:android
+Getting compiler identification output with: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c
+int main() {} 
+
+**** END source file ***
+pipe_command: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c 
+pipe_commands starting: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c 
+**** BEGIN FILE output: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.output
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+**** Compiler identification output begin ****
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+**** Compiler identification output end ****
+Candidate Comptype: clangcc:apple
+Getting compiler identification output with: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c
+int main() {} 
+
+**** END source file ***
+pipe_command: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c 
+pipe_commands starting: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.c 
+**** BEGIN FILE output: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.output
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+**** Compiler identification output begin ****
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+**** Compiler identification output end ****
+Encountered compiler invocation for first time, configuring it: /usr/bin/gcc
+[STATUS] Using comptype clangcc:apple, redirected from comptype clangcc
+Added template compiler configuration instance /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/coverity_config.xml
+Auto Detect Comptype: clangcc
+[STATUS] Cached redirect comptype 'clangcc:apple' found.
+Using cached template compiler configuration instance /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/coverity_config.xml

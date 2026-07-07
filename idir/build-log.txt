@@ -1,0 +1,905 @@
+2026-05-22T05:37:02.451679Z|cov-build|78115|info|> cov-build 2025.12.2 (build 1e12482239 p-2025.12-push-44)
+2026-05-22T05:37:02.452266Z|cov-build|78115|info|> Coverity Build Capture (64-bit) version 2025.12.2 on Darwin 25.4.0 arm64
+2026-05-22T05:37:02.452266Z|cov-build|78115|info|> Internal version numbers: 1e12482239 p-2025.12-push-44
+2026-05-22T05:37:02.452266Z|cov-build|78115|info|> 
+2026-05-22T05:37:02.452289Z|cov-build|78115|info|> Dumping from hostname : BD-MB83065
+2026-05-22T05:37:02.452289Z|cov-build|78115|info|> 
+2026-05-22T05:37:02.452297Z|cov-build|78115|info|> Platform info:
+2026-05-22T05:37:02.452297Z|cov-build|78115|info|> Sysname = Darwin
+2026-05-22T05:37:02.452297Z|cov-build|78115|info|> Release = 25.4.0
+2026-05-22T05:37:02.452297Z|cov-build|78115|info|> Machine = arm64
+2026-05-22T05:37:02.452297Z|cov-build|78115|info|> 
+2026-05-22T05:37:02.452297Z|cov-build|78115|info|> 
+2026-05-22T05:37:02.452312Z|cov-build|78115|info|> [INFO] Pre-existing intermediate directory is being reused: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065
+2026-05-22T05:37:02.452324Z|cov-build|78115|info|> cov-build command: cov-build --config config/config.xml --dir idir gcc main.c -o main 
+2026-05-22T05:37:02.452330Z|cov-build|78115|info|> cov-build expanded command: cov-build --config config/config.xml --dir idir gcc main.c -o main 
+2026-05-22T05:37:02.452397Z|cov-build|78115|info|> Set COVERITY_IS_MACOS13_PLUS to 1
+2026-05-22T05:37:03.278802Z|cov-build|78115|info|> Set COVERITY_MACOS_PROCESS_ARCH to 0
+2026-05-22T05:37:03.278859Z|cov-build|78115|info|> Set COVERITY_MACOS_RUN_UNDER_ARCH to 0
+2026-05-22T05:37:03.339306Z|cov-build|78115|info|> build command: /usr/bin/gcc main.c -o main
+2026-05-22T05:37:03.339335Z|cov-build|78115|info|> thunk command: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/b20d156c16607db7503d98ed5a9f1359/sh /Users/prashant/Coverity/Coverity_install/bin/cov-internal-thunk.sh gcc main.c -o main
+2026-05-22T05:37:03.339335Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.339346Z|cov-build|78115|info|> Set UseSharedCompilation to false.
+2026-05-22T05:37:03.339360Z|cov-build|78115|info|> Set COVERITY_BIN to /Users/prashant/Coverity/Coverity_install/bin
+2026-05-22T05:37:03.339368Z|cov-build|78115|info|> Set COVERITY_SITE_CC to g++;gcc
+2026-05-22T05:37:03.339372Z|cov-build|78115|info|> Set COVERITY_SITE_CC_CAPTURE_DESCENDANTS to 
+2026-05-22T05:37:03.339379Z|cov-build|78115|info|> Set COVERITY_TEMP to /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/b20d156c16607db7503d98ed5a9f1359
+2026-05-22T05:37:03.339388Z|cov-build|78115|info|> Set COVERITY_COMMON_TEMP to /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T
+2026-05-22T05:37:03.339392Z|cov-build|78115|info|> Set COVERITY_IDIR to /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir
+2026-05-22T05:37:03.339409Z|cov-build|78115|info|> Set COVERITY_OUTPUT to /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/build-log.txt
+2026-05-22T05:37:03.339414Z|cov-build|78115|info|> Set COVERITY_LOG to /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/build-log.txt
+2026-05-22T05:37:03.339923Z|cov-build|78115|info|> Set COVERITY_OUTPUT_ENCODING to UTF-8
+2026-05-22T05:37:03.339933Z|cov-build|78115|info|> Set COVERITY_SYSTEM_ENCODING to UTF-8
+2026-05-22T05:37:03.339942Z|cov-build|78115|info|> Set COVERITY_EMIT to /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit
+2026-05-22T05:37:03.339957Z|cov-build|78115|info|> Set COVERITY_IS_COMPILER to 0
+2026-05-22T05:37:03.339961Z|cov-build|78115|info|> Set COVERITY_TOP_PROCESS to 0
+2026-05-22T05:37:03.339964Z|cov-build|78115|info|> Set COVERITY_IS_COMPILER_DESCENDANT to 0
+2026-05-22T05:37:03.339967Z|cov-build|78115|info|> Set COVERITY_DISENGAGE_EXES to "/usr/bin/codesign;qemuwrapper;qemu-aarch64;qemu-alpha;qemu-arm;qemu-armeb;qemu-cris;qemu-i386;qemu-m68k;qemu-microblaze;qemu-mips;qemu-mipsel;qemu-nios2;qemu-ppc;qemu-ppc64;qemu-ppc64abi32;qemu-sh4;qemu-sh4eb;qemu-sparc;qemu-sparc32plus;qemu-sparc64;qemu-x86_64;ldd;sed;grep;cat;tr;sort"
+2026-05-22T05:37:03.339980Z|cov-build|78115|info|> Set COVERITY_MACOS_FORCE_ARCH to "uname"
+2026-05-22T05:37:03.340162Z|cov-build|78115|info|> Set COVERITY_EXEC_LOG_DIR to /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/exec-log/b20d156c16607db7503d98ed5a9f1359
+2026-05-22T05:37:03.340182Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.340182Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.340182Z|cov-build|78115|info|> Dumping configuration:
+2026-05-22T05:37:03.340182Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.340192Z|cov-build|78115|info|> User/default configuration:
+2026-05-22T05:37:03.340192Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|> Configuration read from: command-line
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/config.xml
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|>     Node: prevent
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|>       Node: dir Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir
+2026-05-22T05:37:03.340196Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.340212Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/config.xml
+2026-05-22T05:37:03.340212Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.340212Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.340212Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.340212Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcc-config-0/coverity_config.xml
+2026-05-22T05:37:03.340212Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcxx-config-0/coverity_config.xml
+2026-05-22T05:37:03.340212Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcc-config-0/coverity_config.xml
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: template_compiler Value: true
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_name Value: gcc
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_translator Value: clangcc
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_lang Value: C
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_generic Value: clang
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_autodetect_type Value: clangcc:android
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_autodetect_type Value: clangcc:apple
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_autodetect_type Value: clangcc:llvm
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: comp_is_redirect Value: true
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcc-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: id Value: clangcxx-gcc-.*
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcc-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: id Value: clangcxxcc-gcc-.*
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcc-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: id Value: clangobjc-gcc-.*
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcc-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: id Value: clangobjcxx-gcc-.*
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcc-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|>   Node: md5 Value: b8e003ba6bbec3052da4999ada09ed1d
+2026-05-22T05:37:03.340226Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcxx-config-0/coverity_config.xml
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: template_compiler Value: true
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_name Value: g++
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_translator Value: clangcxx
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_lang Value: C
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_generic Value: clang
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_autodetect_type Value: clangcxx:android
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_autodetect_type Value: clangcxx:apple
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_autodetect_type Value: clangcxx:llvm
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: comp_is_redirect Value: true
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: id Value: clangcxx-g++-.*
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcxx-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: id Value: clangcxxcc-g++-.*
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcxx-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: id Value: clangobjc-g++-.*
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcxx-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: id Value: clangobjcxx-g++-.*
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/template-clangcxx-config-0/../user_nodefs.h
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|>   Node: md5 Value: 3d9460fee9db7da994c1ad660cf9de46
+2026-05-22T05:37:03.340284Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.343838Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.343838Z|cov-build|78115|info|> Cached template configuration instances:
+2026-05-22T05:37:03.343838Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcc_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|>     Node: include Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.343905Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcc_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_name Value: gcc
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_translator Value: clangcc:apple
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_lang Value: C
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang C compiler (CIT)
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_next_type Value: clangcxx:apple
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangcc:llvm
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: id Value: clangcc:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: id Value: clangcc:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcc_apple-config-0/coverity-compiler-compat.h
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcc_apple-config-0/coverity-macro-compat.h
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=12c7e212b2e6e7dd9c3cffb4a8f29e4c
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcc_apple-config-0/../user_nodefs.h
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --c
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|>   Node: md5 Value: e3fb3f2c1bf773506d4736fca0cc21c8
+2026-05-22T05:37:03.344572Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_name Value: gcc
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_translator Value: clangcxx:apple
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_lang Value: C++
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang C++ compiler (CIT)
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_next_type Value: clangcxxcc:apple
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangcxx:llvm
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: id Value: clangcxx:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: id Value: clangcxx:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-0/coverity-compiler-compat.h
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-0/coverity-macro-compat.h
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=c3b0f526bdf64f671dcf4b2dda5e8b40
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: -fno-cxx-modules
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-0/../user_nodefs.h
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: -coverity_c_suffixes_are_cxx
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --c++
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>             Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|>   Node: md5 Value: 4028d7a8a7c167b2a3c23bb969d336d7
+2026-05-22T05:37:03.344717Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_name Value: gcc
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_translator Value: clangcxxcc:apple
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_lang Value: C
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang C++ as C compiler (CIT)
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_next_type Value: clangobjc:apple
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangcxxcc:llvm
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: id Value: clangcxxcc:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: id Value: clangcxxcc:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dryrun_switch Value: -x
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dryrun_switch Value: c
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -x
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dump_macros_arg Value: c
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_switch Value: -x
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_switch Value: c
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-0/coverity-compiler-compat.h
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-0/coverity-macro-compat.h
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=7ccf6eb4b78e50d3326045d6a843d862
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-0/../user_nodefs.h
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --c
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|>   Node: md5 Value: a1eb57366d9c9cf56e5be4381645761f
+2026-05-22T05:37:03.344876Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_name Value: gcc
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_translator Value: clangobjc:apple
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_lang Value: Objective-C
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang Objective-C compiler (CIT)
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_next_type Value: clangobjcxx:apple
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangobjc:llvm
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: id Value: clangobjc:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: id Value: clangobjc:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-0/coverity-compiler-compat.h
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-0/coverity-macro-compat.h
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=2330fae3364486f937d22d8c47e9d437
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-0/../user_nodefs.h
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --objc
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|>   Node: md5 Value: b47115fd650981f0b8e628edeb9a8863
+2026-05-22T05:37:03.345011Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-0/coverity_config.xml
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_name Value: gcc
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_translator Value: clangobjcxx:apple
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_lang Value: Objective-C++
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang Objective-C++ compiler (CIT)
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangobjcxx:llvm
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: id Value: clangobjcxx:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: id Value: clangobjcxx:apple-gcc-4.8.0-49c9925e41cb46a352bf6273ccc9896c-0
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-0/coverity-compiler-compat.h
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-0/coverity-macro-compat.h
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=b253601e321d8cb7598dbb84404e496c
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-0/../user_nodefs.h
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --objc++
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|>   Node: md5 Value: 07ca3589ef5a47486827564412206087
+2026-05-22T05:37:03.345129Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_name Value: g++
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_translator Value: clangcxx:apple
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_lang Value: C++
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang C++ compiler (CIT)
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_next_type Value: clangcxxcc:apple
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangcxx:llvm
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: id Value: clangcxx:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: id Value: clangcxx:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-1/coverity-compiler-compat.h
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-1/coverity-macro-compat.h
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=c3b0f526bdf64f671dcf4b2dda5e8b40
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: -fno-cxx-modules
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxx_apple-config-1/../user_nodefs.h
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: -coverity_c_suffixes_are_cxx
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --c++
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>             Node: includes_from_env_var Value: CPLUS_INCLUDE_PATH
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|>   Node: md5 Value: 8add2fbb9e9b92974f200d8c1a67a40b
+2026-05-22T05:37:03.345239Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_name Value: g++
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_translator Value: clangcxxcc:apple
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_lang Value: C
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang C++ as C compiler (CIT)
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_next_type Value: clangobjc:apple
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangcxxcc:llvm
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: id Value: clangcxxcc:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: id Value: clangcxxcc:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dryrun_switch Value: -x
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dryrun_switch Value: c
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -x
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dump_macros_arg Value: c
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_switch Value: -x
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_switch Value: c
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-1/coverity-compiler-compat.h
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-1/coverity-macro-compat.h
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=7ccf6eb4b78e50d3326045d6a843d862
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcxxcc_apple-config-1/../user_nodefs.h
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --c
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>             Node: includes_from_env_var Value: C_INCLUDE_PATH
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|>   Node: md5 Value: b601d45c85e58a5acbb455a40d49fd74
+2026-05-22T05:37:03.345386Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_name Value: g++
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_translator Value: clangobjc:apple
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_lang Value: Objective-C
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang Objective-C compiler (CIT)
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_next_type Value: clangobjcxx:apple
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangobjc:llvm
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: id Value: clangobjc:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: id Value: clangobjc:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-1/coverity-compiler-compat.h
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-1/coverity-macro-compat.h
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=2330fae3364486f937d22d8c47e9d437
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjc_apple-config-1/../user_nodefs.h
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --objc
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|>   Node: md5 Value: 96c40644384c91307f1e0554ea24bd24
+2026-05-22T05:37:03.345533Z|cov-build|78115|info|> 
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|> Configuration read from: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-1/coverity_config.xml
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|> Node: coverity
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>   Node: cit_version Value: 1
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>   Node: config
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>     Node: build
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>       Node: comp_derived_from Value: clang:llvm
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>       Node: compiler
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_name Value: g++
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_dir Value: /usr/bin
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_translator Value: clangobjcxx:apple
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_lang Value: Objective-C++
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_front_end Value: cov-internal-emit-clang
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_desc Value: Apple Clang Objective-C++ compiler (CIT)
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_generic Value: clang/apple
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: comp_require
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: derived_comp_type Value: clangobjcxx:llvm
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: id Value: clangobjcxx:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: version Value: 4.8.0
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: is_compiler Value: true
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: is_linker Value: false
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>       Node: options
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: id Value: clangobjcxx:apple-g++-4.8.0-49c9925e41cb46a352bf6273ccc9896c-1
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: template_config_option_id Value: clangcc-gcc-.*
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: compile_options
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: sysinclude_dir Value: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: dryrun_switch Value: -E
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: dryrun_switch Value: -v
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -dM
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: dump_macros_arg Value: -E
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -o.+
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_remove_arg Value: -c
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_remove_next_arg Value: -o
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_switch Value: -E
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: preprocess_output Value: -
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: dependency_output Value: 2
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: dryrun_output Value: 2
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-1/coverity-compiler-compat.h
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: macro_pre_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-1/coverity-macro-compat.h
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: --coverity_config_md5=b253601e321d8cb7598dbb84404e496c
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: --no-builtin-include-paths
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: -w
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: --comp_ver
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: 4.8.0
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: -target
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: x86_64-apple-darwin25.4.0
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: -resource-dir
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: prepend_arg Value: --no_predefines
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.c{1,2}$
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: skip_file Value: conftest\.cpp$
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: skip_file Value: cgo-gcc-input-[0-9]+\.(c|cc|cpp|cxx)
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: opt_preinclude_file Value: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangobjcxx_apple-config-1/../user_nodefs.h
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: pch_options
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>           Node: archetype Value: clang
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: expand
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>             Node: replace_arg_regex
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>               Node: replace Value: @(.*)
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>               Node: with Value: --coverity_resp_file=$1
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: pre_trans
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>             Node: intern_trans Value: clang_pre_translate
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>             Node: intern_trans Value: clang_apple_pre_translate
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: trans
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>           Node: options
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>             Node: pre_prepend_arg Value: --objc++
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>         Node: begin_command_line_config
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|>   Node: md5 Value: faeed0cda22cb876576047c5090b5f86
+2026-05-22T05:37:03.345649Z|cov-build|78115|info|> 
+[CAPWRAP][78125]: EXECUTING: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/b20d156c16607db7503d98ed5a9f1359/sh /Users/prashant/Coverity/Coverity_install/bin/cov-internal-thunk.sh gcc main.c -o main
+[CAPWRAP][78125]: EXECUTING: gcc main.c -o main
+[CAPWRAP][78125]: CWD: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check
+[CAPWRAP][78125]: COMPILING: /Users/prashant/Coverity/Coverity_install/bin/cov-translate gcc main.c -o main
+Using cached template compiler configuration instance /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/coverity_config.xml
+COV_TRANSLATE EXPANDED ARGS: "main.c" "-o" "main"
+[STATUS] Compiling main.c
+/Users/prashant/Coverity/Coverity_install/bin/cov-internal-emit-clang "--dir=/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir" --ignore_path=/var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/b20d156c16607db7503d98ed5a9f1359/cov-configure --ignore_path=/var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/b20d156c16607db7503d98ed5a9f1359/cov-prashant/86c2adb309672022acf438e15839a0c1 --preimacros "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcc_apple-config-0/coverity-macro-compat.h" --pre_preinclude "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit/BD-MB83065/config/49c9925e41cb46a352bf6273ccc9896c/clangcc_apple-config-0/coverity-compiler-compat.h" --c --coverity_config_md5=12c7e212b2e6e7dd9c3cffb4a8f29e4c --no-builtin-include-paths -w --no_predefines --comp_ver 4.8.0 -target x86_64-apple-darwin25.4.0 -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 --no_predefines --emit_pch_dependencies -std=gnu17 --sys_include=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include --sys_include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include --sys_include=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "--sys_include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)" "--sys_include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)" -x c main.c 
+Emit for file '/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c' (TU 1) complete.
+2026-05-22T05:37:09.363108Z|cov-build|78115|info|> Invoking cov-security-da with commands: /Users/prashant/Coverity/Coverity_install/bin/cov-security-da --dir /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir
+2026-05-22T05:37:09.817862Z|cov-build|78115|info|> Dynamic analyzer took 454 ms
+2026-05-22T05:37:09.817862Z|cov-build|78115|info|> Build time (cov-build overall): 00:00:07.392024
+2026-05-22T05:37:09.817862Z|cov-build|78115|info|> 
+2026-05-22T05:37:09.818497Z|cov-build|78115|info|> Build time (C/C++ emits total): 00:00:01.497545
+2026-05-22T05:37:09.818497Z|cov-build|78115|info|> 
+2026-05-22T05:37:09.818497Z|cov-build|78115|info|> 
+2026-05-22T05:37:09.818617Z|cov-build|78115|info|> Emitted 1 C/C++ compilation units (100%) successfully
+2026-05-22T05:37:09.818617Z|cov-build|78115|info|> 
+2026-05-22T05:37:09.818617Z|cov-build|78115|info|> 1 C/C++ compilation units (100%) are ready for analysis
+2026-05-22T05:37:09.818617Z|cov-build|78115|info|> The cov-build utility completed successfully.

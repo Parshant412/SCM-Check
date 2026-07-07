@@ -1,0 +1,50 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>OVERRUN</checker>
+<type>overrun</type>
+<subtype>write</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>array_out_of_bounds</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>overrun-local</tag>
+<description>{CovLStrv2{{t{Overrunning array {0} of {1} {2}-byte elements at element index {3} (byte offset {4}) using index {5}.}{{code{arr}}}{5}{4}{10}{43}{{code{10}}}}}}</description>
+<line>12</line>
+<column>5</column>
+</event>
+<extra>arr</extra>
+<subcategory>write</subcategory>
+<antecedentMerge>
+<checker>OVERRUN_STATIC</checker>
+<extra></extra>
+</antecedentMerge>
+</error>
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>OVERRUN</checker>
+<type>overrun</type>
+<subtype>write</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>buffer_overflow</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<main>true</main>
+<tag>strcpy_overrun</tag>
+<description>{CovLStrv2{{t{{0} will overrun its first argument {1} which can accommodate {2} bytes.  The length of the second argument {3} is {4} bytes, including the terminating null.}{{code{strcpy}}}{{code{small}}}{5}{{code{&quot;ThisIsTooLong&quot;}}}{14}}}}</description>
+<line>68</line>
+<column>5</column>
+</event>
+<extra>small</extra>
+<subcategory>write</subcategory>
+<antecedentMerge>
+<checker>OVERRUN_STATIC</checker>
+<extra></extra>
+</antecedentMerge>
+</error>

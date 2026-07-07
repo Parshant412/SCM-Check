@@ -1,0 +1,18 @@
+# Version: 1e12482239 p-2025.12-push-44
+# Command Line: cov-import-scm --scm git --dir idir
+timer                      ms      calls
+----------------------------------------
+cov-import-scm           2473          1
+  list unknown            552          1
+  filter                    0          1
+  extract                1904          1
+  add annotations          17          1
+  (left over)               0
+
+activity                   ms      calls
+----------------------------------------
+cov-import-scm           2473          1
+list unknown              552          1
+filter                      0          1
+extract                  1904          1
+add annotations            17          1

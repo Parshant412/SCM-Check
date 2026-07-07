@@ -1,0 +1,9 @@
+# Version: 1e12482239 p-2025.12-push-44
+# Command Line: /Users/prashant/Coverity/Coverity_install/bin/cov-security-da --dir /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir
+timer                         ms      calls
+-------------------------------------------
+cov_security_da::run           5          1
+
+activity                      ms      calls
+-------------------------------------------
+cov_security_da::run           5          1

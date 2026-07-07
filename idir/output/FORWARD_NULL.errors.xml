@@ -1,0 +1,27 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>FORWARD_NULL</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>constant</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>null_pointer_deref</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>assign_zero</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{p}}}{}{{code{NULL}}}}}}</description>
+<line>27</line>
+<column>5</column>
+</event>
+<event>
+<main>true</main>
+<tag>var_deref_op</tag>
+<description>{CovLStrv2{{t{Dereferencing null pointer {0}.}{{code{p}}}}}}</description>
+<line>28</line>
+<column>5</column>
+</event>
+<extra>p</extra>
+<subcategory>deref_constant_null</subcategory>
+</error>

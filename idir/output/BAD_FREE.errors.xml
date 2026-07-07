@@ -1,0 +1,21 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>BAD_FREE</checker>
+<type>bad_free</type>
+<subtype>address_of_expression</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>wrong_free</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>address_free</tag>
+<description>{CovLStrv2{{t{{0} frees address of {1}.}{{code{free}}}{{code{local_var}}}}}}</description>
+<line>17</line>
+<column>5</column>
+</event>
+<extra></extra>
+<subcategory>address</subcategory>
+</error>

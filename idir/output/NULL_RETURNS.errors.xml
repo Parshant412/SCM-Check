@@ -1,0 +1,33 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>NULL_RETURNS</checker>
+<type>null_pointer_dereference_crash</type>
+<subtype>return_value</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>memory_leak</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>returned_null</tag>
+<description>{CovLStrv2{{t{{0} returns {code{nullptr}}.}{{code{malloc}}}}}}</description>
+<line>49</line>
+<column>5</column>
+</event>
+<event>
+<tag>var_assigned</tag>
+<description>{CovLStrv2{{t{Assigning: {0} = {code{nullptr}} return value from {1}.}{{code{ptr}}}{{code{malloc}}}}}}</description>
+<line>49</line>
+<column>5</column>
+</event>
+<event>
+<main>true</main>
+<tag>dereference</tag>
+<description>{CovLStrv2{{t{Dereferencing {0}, which is known to be {code{nullptr}}.}{{code{ptr}}}}}}</description>
+<line>50</line>
+<column>5</column>
+</event>
+<extra>malloc</extra>
+<subcategory>none</subcategory>
+</error>

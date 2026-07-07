@@ -1,0 +1,49 @@
+{
+  "rule" : "all_events",
+  "assignments" : [
+    {
+      "mergeKey" : "16a399639eab4975261460ece8f3657d",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "30560d300107984cae4dba3e6a648254",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "309a4a5df14ac232b438265c1c614ab0",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "395f9d9b0135946a2c13a2fddecc24b7",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "4b05bc13f28ceb6d54e8aa947e314596",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "6c29c53a0ebece53f444b2cb1cecbb26",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "6de9ea07937ceaf97078fef3ee0c21c2",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "8ab99ca2372cce7ae72daf703d729762",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "b33d36b0510072c0c818fa5eef1fcf4f",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "c3b02abc5dc684b3cc8da252eed4a175",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    },
+    {
+      "mergeKey" : "c4b12e49da8f4a3283106521fc72598e",
+      "scmUsername" : "113189040+Parshant412@users.noreply.github.com"
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "header" : {
+    "format" : "commit preview report",
+    "version" : 2
+  },
+  "analysisInfo" : {
+    "ownerAssignmentRule" : "all_events",
+    "comparisonSnapshotId" : null,
+    "reportTimestamp" : "2026-05-22T06:55:54.154Z",
+    "user" : "admin",
+    "command" : "cov-analyze --dir idir --aggressiveness-level high"
+  },
+  "issueInfo" : [ {
+    "cid" : 12610,
+    "mergeKey" : "b33d36b0510072c0c818fa5eef1fcf4f",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-22T06:55:54.154Z",
+    "occurrences" : [ {
+      "checker" : "NULL_RETURNS",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "memory_leak",
+      "extra" : "malloc",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 50,
+      "mainEventDescription" : "Dereferencing \"ptr\", which is known to be \"nullptr\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 12611,
+    "mergeKey" : "395f9d9b0135946a2c13a2fddecc24b7",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-22T06:55:54.154Z",
+    "occurrences" : [ {
+      "checker" : "UNINIT",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "uninitialized_variable",
+      "extra" : "x",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 63,
+      "mainEventDescription" : "Using uninitialized value \"x\" when calling \"printf\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 11526,
+    "mergeKey" : "309a4a5df14ac232b438265c1c614ab0",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-09T14:31:53.591Z",
+    "occurrences" : [ {
+      "checker" : "BAD_FREE",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "wrong_free",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "address",
+      "mainEventLineNumber" : 17,
+      "mainEventDescription" : "\"free\" frees address of \"local_var\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 12612,
+    "mergeKey" : "16a399639eab4975261460ece8f3657d",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-22T06:55:54.154Z",
+    "occurrences" : [ {
+      "checker" : "OVERRUN",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "buffer_overflow",
+      "extra" : "small",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "write",
+      "mainEventLineNumber" : 68,
+      "mainEventDescription" : "\"strcpy\" will overrun its first argument \"small\" which can accommodate 5 bytes.  The length of the second argument \"\"ThisIsTooLong\"\" is 14 bytes, including the terminating null.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 11524,
+    "mergeKey" : "c3b02abc5dc684b3cc8da252eed4a175",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-09T14:31:18.107Z",
+    "occurrences" : [ {
+      "checker" : "RESOURCE_LEAK",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "memory_leak",
+      "extra" : "ptr",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 52,
+      "mainEventDescription" : "Variable \"ptr\" going out of scope leaks the storage it points to.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 12613,
+    "mergeKey" : "6c29c53a0ebece53f444b2cb1cecbb26",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-22T06:55:54.154Z",
+    "occurrences" : [ {
+      "checker" : "DIVIDE_BY_ZERO",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "division_by_zero",
+      "extra" : "b",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 57,
+      "mainEventDescription" : "In expression \"a / b\", division by expression \"b\" which may be zero has undefined behavior.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 12614,
+    "mergeKey" : "8ab99ca2372cce7ae72daf703d729762",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-22T06:55:54.154Z",
+    "occurrences" : [ {
+      "checker" : "DC.STRING_BUFFER",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "buffer_overflow",
+      "extra" : "",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "none",
+      "mainEventLineNumber" : 68,
+      "mainEventDescription" : "The destination of a \"strcpy\" call must have enough space to accept the source.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 11528,
+    "mergeKey" : "30560d300107984cae4dba3e6a648254",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-10T04:33:05.105Z",
+    "occurrences" : [ {
+      "checker" : "FORWARD_NULL",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "null_pointer_deref",
+      "extra" : "p",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_constant_null",
+      "mainEventLineNumber" : 28,
+      "mainEventDescription" : "Dereferencing null pointer \"p\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 11527,
+    "mergeKey" : "4b05bc13f28ceb6d54e8aa947e314596",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-09T14:31:53.591Z",
+    "occurrences" : [ {
+      "checker" : "OVERRUN",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "array_out_of_bounds",
+      "extra" : "arr",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "write",
+      "mainEventLineNumber" : 12,
+      "mainEventDescription" : "Overrunning array \"arr\" of 5 4-byte elements at element index 10 (byte offset 43) using index \"10\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 11529,
+    "mergeKey" : "6de9ea07937ceaf97078fef3ee0c21c2",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-10T04:33:05.105Z",
+    "occurrences" : [ {
+      "checker" : "USE_AFTER_FREE",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "use_after_free",
+      "extra" : "ptr",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "deref_read_after_free",
+      "mainEventLineNumber" : 38,
+      "mainEventDescription" : "Dereferencing freed pointer \"ptr\".",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  }, {
+    "cid" : 12615,
+    "mergeKey" : "c4b12e49da8f4a3283106521fc72598e",
+    "presentInComparisonSnapshot" : false,
+    "firstDetectedDateTime" : "2026-05-22T06:55:54.154Z",
+    "occurrences" : [ {
+      "checker" : "USE_AFTER_FREE",
+      "file" : "/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c",
+      "function" : "double_free",
+      "extra" : "ptr",
+      "mergeWithLowercaseFile" : false,
+      "subcategory" : "double_free",
+      "mainEventLineNumber" : 74,
+      "mainEventDescription" : "Calling \"free\" frees pointer \"ptr\" which has already been freed.",
+      "componentName" : "Other",
+      "componentDefaultOwner" : null,
+      "componentDefaultOwnerLdapServer" : null,
+      "score" : null,
+      "language" : "C++"
+    } ],
+    "triage" : {
+      "severity" : "Unspecified",
+      "owner" : null,
+      "externalReference" : null,
+      "legacy" : "False",
+      "fixTarget" : "Untargeted",
+      "action" : "Undecided",
+      "classification" : "Unclassified"
+    },
+    "customTriage" : {
+      "Prashant_new_Attributes" : "Yes"
+    },
+    "ownerLdapServerName" : null
+  } ]
+}

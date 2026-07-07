@@ -1,0 +1,3157 @@
+{
+  "ALLOC_FREE_MISMATCH" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "ANDROID_CAPABILITY_LEAK" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "ARRAY_VS_SINGLETON" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "ASSERT_SIDE_EFFECT" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "AUTO_CAUSES_COPY" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_ALLOC_ARITHMETIC" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_ALLOC_STRLEN" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_CERT_VERIFICATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "BAD_CHECK_OF_WAIT_COND" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_COMPARE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_EQ" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "BAD_EQ_TYPES" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "BAD_FREE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_LOCK_OBJECT" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "BAD_OVERRIDE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_SHIFT" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "BAD_SIZEOF" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "CALL_SUPER" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CHAR_IO" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "CHECKED_RETURN" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "COM.BAD_FREE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "COM.BSTR.CONV" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "CONFIG.ANDROID_GRADLE_OBFUSCATION_NOT_ENABLED" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CONFIG.BEEGO_CSRF_PROTECTION_DISABLED" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CONFIG.UNSAFE_SESSION_TIMEOUT" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CONSTANT_EXPRESSION_RESULT" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "COOKIE_SERIALIZER_CONFIG" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "COPY_INSTEAD_OF_MOVE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "COPY_PASTE_ERROR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "CSRF" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CTOR_DTOR_LEAK" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.COLLECTIVE_WARP_SHUFFLE_WIDTH" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.CUDEVICE_HANDLES" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.DEVICE_DEPENDENT" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.DEVICE_DEPENDENT_CALLBACKS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.DIVERGENCE_AT_COLLECTIVE_OPERATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.ERROR_INTERFACE" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.ERROR_KERNEL_LAUNCH" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.FORK" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.INACTIVE_THREAD_AT_COLLECTIVE_WARP" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.INITIATION_OBJECT_DEVICE_THREAD_BLOCK" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.INVALID_MEMORY_ACCESS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.SHARE_FUNCTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.SHARE_OBJECT_STREAM_ASSOCIATED" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.SPECIFIERS_INCONSISTENCY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.SYNCHRONIZE_CALLBACKS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "CUDA.SYNCHRONIZE_TERMINATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "DC.DANGEROUS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "DC.DEADLOCK" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "DC.DEBUGAPI" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DC.PREDICTABLE_KEY_PASSWORD" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DC.STREAM_BUFFER" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DC.STRING_BUFFER" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DC.WEAK_CRYPTO" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DEADCODE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DELETE_ARRAY" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DELETE_VOID" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DENY_LIST_FOR_AUTHN" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "DIVIDE_BY_ZERO" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "DOM_XSS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "DYNAMIC_OBJECT_ATTRIBUTES" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "EL_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "END_OF_LIFE_RAILS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "END_OF_LIFE_RUBY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "EVALUATION_ORDER" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "FORWARD_NULL" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "GLOBAL_INIT_ORDER" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "GUARDED_BY_VIOLATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "HARDCODED_CREDENTIALS" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "HEADER_INJECTION" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "HIBERNATE_BAD_HASHCODE" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "IDENTICAL_BRANCHES" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "IDENTIFIER_TYPO" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "IMPLICIT_INTENT" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "INCOMPATIBLE_CAST" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "INCOMPLETE_DEALLOCATOR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "INEFFICIENT_RESERVE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "INFINITE_LOOP" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "INSECURE_COMMUNICATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "INSECURE_CSP" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "INSECURE_FILE_PERMISSIONS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "INSECURE_RANDOM" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "INSUFFICIENT_LOGGING" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "INVALIDATE_ITERATOR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "JAVA_CODE_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "JCR_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "JSONWEBTOKEN_UNTRUSTED_DECODE" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "LDAP_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "LOCK_EVASION" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "LOCK_INVERSION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "MISMATCHED_ITERATOR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "MISSING_BREAK" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "MISSING_COMMA" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "MISSING_MOVE_ASSIGNMENT" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "MISSING_PERMISSION_FOR_BROADCAST" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "MISSING_RESTORE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "MISSING_RETURN" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "MISSING_THROW" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "MOBILE_ID_MISUSE" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "MULTIPLE_INIT_SMART_PTRS" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "NEGATIVE_RETURNS" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "NESTING_INDENT_MISMATCH" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "NON_STATIC_GUARDING_STATIC" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "NOSQL_QUERY_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "NO_EFFECT" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "NULL_FIELD" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "NULL_RETURNS" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "ODR_VIOLATION" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "OGNL_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "OPEN_REDIRECT" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "ORM_LOAD_NULL_CHECK" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "ORM_UNNECESSARY_GET" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "OS_CMD_INJECTION" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "OVERFLOW_BEFORE_WIDEN" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "OVERLAPPING_COPY" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "OVERRUN" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "PASS_BY_VALUE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "PATH_MANIPULATION" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "PRECEDENCE_ERROR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "PREDICTABLE_RANDOM_SEED" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "PRINTF_ARGS" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "PROPERTY_MIXUP" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "RAILS_DEFAULT_ROUTES" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "RAILS_DEVISE_CONFIG" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "RAILS_MISSING_FILTER_ACTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "READLINK" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "REGEX_CONFUSION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "REGEX_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "REGEX_MISSING_ANCHOR" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "RESOURCE_LEAK" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "RETURN_LOCAL" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "REVERSE_INULL" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "REVERSE_INVALID_ITERATOR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "REVERSE_NEGATIVE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "REVERSE_TABNABBING" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "RISKY_CRYPTO" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "RUBY_VULNERABLE_LIBRARY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SCRIPT_CODE_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SENSITIVE_DATA_LEAK" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "SERVLET_ATOMICITY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SESSION_FIXATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SESSION_MANIPULATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.access_control_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.access_to_secret" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.admin_access_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.admin_dashboard_publicly_accessible" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.alias_ip_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.allow_all_authz_policy" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.allow_non_strict_processing" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.allow_self_signed_certificate" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.always_remember_me_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.anonymous_access_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.anti_spoofing_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.api_exposes_refresh_token" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.api_key_auth_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.api_key_in_query_string" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.apparmour_default_configuration_override" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.audio_recording_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.automatic_key_rotation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.automatic_os_upgrade_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.automatic_repair_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.automatic_upgrade_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.automounting_service_account_token" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.azure_ad_authentication_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.azure_ad_managed_identities_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.backups_allowed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.basic_auth_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.biometric_authentication_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.broad_domain_attribute_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.broad_filesystem_access" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cache_ttl_too_long" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cbc_insecure_padding" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.certificate_rotation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.certificate_verification_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.circuit_breaker_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.client_store_info_leak" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_database_deletion_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_gateway_publicly_accessible" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_object_lock_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_resource_assigned_public_ip" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_resource_publicly_accessible" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_service_authn_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_service_authz_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_storage_allows_public_config" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_storage_default_allow_all" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_storage_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cloud_storage_publicly_accessible" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.confidential_computing_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.config_browser_plugin_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.conflicting_names" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.connection_timeout_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_access_to_host_filesystem" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_cpu_share_unlimited" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_daemon_socket_exposed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_empty_security_context" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_excessive_restart_times" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_filesystem_write" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_hostport_binding" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_insecure_bind_address" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_mapped_to_privileged_port" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_missing_cpu_limit" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_missing_memory_limit" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_missing_pids_limit" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_privilege_escalation_allowed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_requesting_net_raw" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_requesting_sys_admin" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_running_as_root" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_sharing_host_ipc_namespace" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_sharing_host_network_namespace" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_sharing_host_pid_namespace" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_sharing_mount_volumes" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_storing_secret_in_environment_variable" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.container_sudo_usage" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.content_isolation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.content_security_policy_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cookie_logging_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cookie_session_signing_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_configured_globally" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_expose_sensitive_data" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_no_credentials_permissive_origin" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_origin_string" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_permissive_methods" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_preflight_age_too_long" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_with_credentials_all_origin" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_with_credentials_http_origin" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_with_credentials_null_origin" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.cors_with_credentials_subdomain_origin" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.credentials_validation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.credentials_without_keychain_protection" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.csp_frame_ancestors_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.csp_mixed_content" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.csp_permissive_source" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.csp_unsafe_eval" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.csp_unsafe_inline" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.csrf" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.csrf_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.custom_cryptography" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.custom_keyboards_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.custom_resource_in_default_namespace" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dangerous_oauth2_implicit_flow" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dangerous_ropc_flow" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dangerously_exposed_interface" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.data_exfiltration_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.data_mask_obfuscation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.data_sent_to_external_server" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.database_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.database_integrity_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.database_repair_mode_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ddos_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.debug_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.debug_logging_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.default_allow_all_authz_policy" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.default_service_account_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.deletion_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.deprecated_component_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.deprecated_http_client" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.deprecated_runtime_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.deprecated_xss_header" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dev_mode_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.digest_auth_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.disk_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dns_prefetch_control_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dnssec_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.drop_invalid_header_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.duplicate_validation_forms" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dynamic_method_invocation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.dynamically_loading_extensions_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.el_injection" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.element_any" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.empty_encryption_key" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.empty_password" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.empty_salt" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.empty_signing_key" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_auth_attempts" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_buffer_size" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_connection_timeout" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_http_buffer_size" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_ingress" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_key_rotation_period" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_memory_limit" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_request_retries" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_request_size" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_session_lifetime" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_token_lifetime" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.excessive_ttl" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.expect_ct_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.experimental_features_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.exposed_directory_listing" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.exposed_privileged_account" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.exposed_secret" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.expression_escaping_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.external_storage_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_data_unprotected_on_device" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_header_crc_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_upload_misconfiguration" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_upload_misconfiguration_of_fields" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_upload_misconfiguration_of_file_path" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_upload_misconfiguration_of_filesize" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_upload_misconfiguration_of_safe_file_names" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_upload_misconfiguration_of_storage" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.file_upload_misconfiguration_of_temp_files" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.full_table_scan" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.gateway_exposes_all_hosts" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.general_pasteboard_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.geo_redundant_backup_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.graphiql_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hardcoded_remember_me_key" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hardcoded_secret" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hardcoded_value" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hardware_backed_security_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.healthcheck_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hide_powered_by_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.host_header_validation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hpkp_max_age_too_long" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hpkp_report_uri_missing_tls" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hsts_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hsts_http_header_short_max_age" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.hsts_http_header_subdomains_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.http_firewall_allow_any_http_method" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.http_firewall_allows_special_char" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.http_firewall_insecure_default" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.http_header_validation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.http_method_missing_authz" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.http_verb_tampering_method_inclusion" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.http_verb_tampering_method_omission" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ie_no_open_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.image_scanning_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.immutable_tag_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.improper_use_of_add_command" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.improper_use_of_symmetric_cryptography" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.incomplete_credential_removal" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.infrastructure_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_active_user_switch" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_argon2_parameters" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_block_cipher_algorithm" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_block_cipher_mode" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_cipher" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_cookie_storage" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_credential_use" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_dataframe" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_direct_object_reference" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_file_permission" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_iframe_sandbox" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_ipc" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_network_bind" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_permission_on_exported_component" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_random" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_random_seed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_referrer_policy" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_samesite_attribute_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_stream_cipher_algorithm" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_temporary_file" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_tls_cipher_suite" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_tls_renegotiation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_tls_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insecure_xss_filter" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_asymmetric_key_size" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_brute_force_protection" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_log_retention" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_logging" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_password_hash_iterations" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_password_hash_key_length" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_password_hash_salt_length" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_presigned_url_timeout" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_soft_delete_retention" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_symmetric_key_size" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.insufficient_token_entropy" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.introspection_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.invalid_command_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ip_forwarding_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.iptable_synchronization_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.javascript_code_in_description" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.jwt_algorithm_none" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.jwt_ignored_expiration_time" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.jwt_ignored_start_time" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.jwt_no_claims_validation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.jwt_non_expiring_token" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.jwt_revoke_missing" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.jwt_untrusted_decode" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.kernel_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.keyboard_cache_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.keychain_data_unprotected_after_device_powered_on" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.keychain_data_unprotected_after_first_login" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.keychain_data_unprotected_passcode_not_set" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.kms_encryption_service_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.kubernetes_dashboard_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ldap_anonymous_authentication" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ldap_entry_poisoning" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.least_privilege_violation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.legacy_attribute_based_access_control" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.local_infile_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.location_tracking_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.log_file_validation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.log_monitoring_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.logging_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.logging_request_parameters" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.login_over_http" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.lossy_encoding" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.malicious_url" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.markdown_allow_dangerous_html" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.message_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.microservice_authn_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.middleware_applied_globally" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.misconfigured_oauth2" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_default_response_object" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_exported_attribute" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_global_exception_handler" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_high_availability_support" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_httponly_attribute" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_httponly_attribute_csrf_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_httponly_attribute_session_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_iframe_sandbox" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_load_balancer" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_mfa" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_min_sdk_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_mtls" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_network_security_policy" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_perfect_forward_secrecy" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_permission_on_exported_component" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_samesite_attribute" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_samesite_attribute_csrf_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_samesite_attribute_session_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_secure_attribute" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_secure_attribute_csrf_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_secure_attribute_remember_me_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_secure_attribute_session_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_security_constraint" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_servlet_mapping" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_target_sdk_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_tls" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_uses_sdk_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_vpc" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.missing_x_frame_options_header" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.mixed_content_allowed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.multi_region_configuration_aggregation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.multi_region_logging_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.no_complexity_limit" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.no_depth_limit" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.no_password_change_on_first_login" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.no_rate_limiting" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.no_sniff_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.non_production_api_endpoint" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.non_production_route" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.null_cipher_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.oauth2_pkce_plaintext_challenge" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.oauth2_scope_in_token_request" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.open_smtp_relay" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.optimized_image_not_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.outdated_target_sdk_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.outdated_version_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.overwrite_unintended_variables" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.parameter_merging_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.parameters_validation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.password_change_disallowed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.password_change_without_old_password" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.password_stored_without_hash" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.permissive_intent_list" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.permissive_navigation_list" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.permissive_network_list" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.permitted_cross_domain_policies_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.persistent_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.plaintext_storage_sensitive_data" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.predictable_secret" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.privileged_connection_allowed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.privileged_container_allowed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.profiling_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.project_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.public_github_repository" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.publicly_accessible_serial_port_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.publicly_writable_directories_used" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.query_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.query_logging_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.referrer_policy_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.relative_path" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.remote_access_via_guest_account" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.remote_application_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.remote_execution_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.remote_file_inclusion" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.request_allows_any_media_type" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.request_logging_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.request_tracing_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.request_validation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.response_cache_encryption_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.response_cache_used_without_validation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.response_caching_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.response_logging_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.reverse_tabnabbing" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.root_path_attribute_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.rsa_no_padding" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.safe_browsing_options_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.sasl_plain_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.screenshot_data_leak" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.script_checks_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.script_timeout_too_long" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.seccomp_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.security_alerts_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.security_alerts_notification_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.security_scanning_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.selinux_default_configuration_override" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.sensitive_data_in_cookie" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.sensitive_data_in_query_string" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.sensitive_data_in_response" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.server_side_request_unrestricted" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.service_account_lookup_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.session_cookie_misuse" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.session_fixation_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.shared_preferences_data_exposure" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.shell_missing_pipefail" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.shielded_nodes_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.shielded_vm_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.socket_accepts_all_origins" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ssh_port_exposed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ssh_publicly_accessible" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ssl_pinning_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.ssrf_with_untrusted_callback" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.state_changing_get_request" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.static_iv" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.static_non_expiring_token" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.storage_optimization_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.storage_versioning_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.stripe_validation_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.synchronized_credentials" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.tag_authorization_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.termination_protection_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.third_party_trusted" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.tiller_service_exposed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.trace_mode_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.trojan_source" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unauthenticated_readonly_access" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unbounded_occurrences" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.uncontrolled_search_path" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.undefined_oauth2_scope" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unfettered_resource_loading" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unfiltered_html_allowed" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unlimited_concurrent_sessions" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unprotected_admin_operation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unprotected_master_key" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unreliable_root_jailbreak_detection" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unrestricted_database_access" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unrestricted_egress" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unrestricted_ingress" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unrestricted_postmessage_target" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_authentication_filter" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_eval" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_file_inclusion" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_http_method" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_innerhtml_manipulation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_language_feature" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_min_os_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_min_sdk_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_os_command" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_receipt_verification" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_session_storage" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_sms" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_webview_usage" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unsafe_xml_canonicalization" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unspecified_cipher_transformation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unspecified_software_version" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unused_form_bean" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.unused_security_control" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.update_command_runs_in_isolation" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.user_namespace_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.vendor_provided_encryption_key" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.verbose_error_message" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.verbose_server_banner" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.view_state_stored_on_client" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.vulnerable_software" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.waf_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.weak_auth_mechanism" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.weak_biometric_authentication" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.weak_hash" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.weak_password_hash" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.weak_password_policy" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.weak_security_constraint" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.weak_xss_protection" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.webview_file_access" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.webview_javascript_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.write_using_auxiliary_file" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.xml_entity_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.xml_external_entity_enabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGMA.xss_filter_disabled" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SIGN_EXTENSION" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "SIZEOF_MISMATCH" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "SOCKET_ACCEPT_ALL_ORIGINS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SQLI" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "STRAY_SEMICOLON" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "STREAM_FORMAT_STATE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "STRICT_TRANSPORT_SECURITY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SUPPRESSED_ERROR" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "SWAPPED_ARGUMENTS" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "TAINTED_ENVIRONMENT_WITH_EXECUTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "TEMPLATE_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "TRUST_BOUNDARY_VIOLATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNCAUGHT_EXCEPT" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "UNENCRYPTED_SENSITIVE_DATA" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "UNEXPECTED_CONTROL_FLOW" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "UNINIT" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "UNINIT_CTOR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "UNINTENDED_GLOBAL" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNINTENDED_INTEGER_DIVISION" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "UNKNOWN_LANGUAGE_INJECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNLOCKED_ACCESS" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "UNLOGGED_SECURITY_EXCEPTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNNECESSARY_STRING_COPY" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "UNREACHABLE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "UNRESTRICTED_ACCESS_TO_FILE" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNRESTRICTED_DISPATCH" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNSAFE_BASIC_AUTH" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNSAFE_DESERIALIZATION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNSAFE_FUNCTIONALITY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNSAFE_JNI" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNSAFE_NAMED_QUERY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNSAFE_REFLECTION" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNSAFE_SESSION_SETTING" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "UNUSED_VALUE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "URL_MANIPULATION" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "USELESS_CALL" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "USE_AFTER_FREE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "USE_AFTER_MOVE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "VARARGS" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "VIRTUAL_DTOR" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "VOLATILE_ATOMICITY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "WEAK_PASSWORD_HASH" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "WRAPPER_ESCAPE" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "WRITE_CONST_FIELD" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  },
+  "WRONG_METHOD" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "XML_EXTERNAL_ENTITY" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "XPATH_INJECTION" : {
+    "disabled" : [
+      "C/C++"
+    ]
+  },
+  "XSS" : {
+    "unsupported" : [
+      "C/C++"
+    ]
+  },
+  "Y2K38_SAFETY" : {
+    "enabled" : [
+      "C/C++"
+    ]
+  }
+}

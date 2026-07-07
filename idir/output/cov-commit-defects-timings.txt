@@ -1,0 +1,87 @@
+# Version: 1e12482239 p-2025.12-push-44
+# Command Line: cov-commit-defects --dir idir --url https://aws-sup-prashant01.aws.internal:8443 --user admin --password Admin@412 --stream scm-testig --scm git --scm-project-root .
+timer                                          ms      calls
+------------------------------------------------------------
+cov-commit-defects                          21312          1
+  set_working_domain                           10          1
+  send_analysis_and_build_metrics              15          2
+    open emit DB                                4          1
+  send_defects_v3                            7056          2
+    HashKVS mappingBegin                        1          2
+      HashKVSBigLockRead                        0          2
+  start_determining_blame_v2                  359          1
+  send_snapshot_info                            1          1
+  send_analysis_settings_v1                     1          1
+  send_collectable_analysis_metrics             2          1
+  send_his_metrics                              0          1
+  send_sourcefile_descriptions_v3               5          1
+  send_file_contents_dev                      369          1
+  send_filtering_report                         0          1
+  send_xrefs_v2                                40          1
+    HashKVS mappingBegin                        0          1
+      HashKVSBigLockRead                        0          1
+  send_functions_v1                             2          1
+  send_owners_v1                                0          1
+  send_output_files_v1                       1442          1
+  send_scm_change_record_md5s                   3          1
+    open emit DB                                3          1
+  send_scm_change_record_contents             355          1
+    open emit DB                                2          1
+  send_scm_annotation_md5s                      5          1
+    open emit DB                                3          1
+  send_analysis_summaries_md5_v1                5          1
+    get_lock                                    4          1
+    HashKVS has_key                             0          1
+      HashKVSBigLockRead                        0          1
+      find                                      0          1
+        read partial table                      0          1
+    HashKVS mappingBegin                        0          1
+      HashKVSBigLockRead                        0          1
+  send_analysis_summaries_contents_v1         404          1
+    HashKVS find                                0          4
+      HashKVSBigLockRead                        0          4
+      find                                      0          4
+        read partial table                      0          4
+  send_desktop_analysis_data_v1                 0          1
+    HashKVS find                                0          1
+      HashKVSBigLockRead                        0          1
+      find                                      0          1
+        read partial table                      0          1
+  send_timestamp_v1                             0          1
+  check_updates_v0                              0          1
+  (left over)                               11238
+
+activity                                       ms      calls
+------------------------------------------------------------
+cov-commit-defects                          21312          1
+set_working_domain                             10          1
+send_analysis_and_build_metrics                15          2
+open emit DB                                   12          4
+send_defects_v3                              7056          2
+HashKVS mappingBegin                            1          4
+HashKVSBigLockRead                              0         10
+start_determining_blame_v2                    359          1
+send_snapshot_info                              1          1
+send_analysis_settings_v1                       1          1
+send_collectable_analysis_metrics               2          1
+send_his_metrics                                0          1
+send_sourcefile_descriptions_v3                 5          1
+send_file_contents_dev                        369          1
+send_filtering_report                           0          1
+send_xrefs_v2                                  40          1
+send_functions_v1                               2          1
+send_owners_v1                                  0          1
+send_output_files_v1                         1442          1
+send_scm_change_record_md5s                     3          1
+send_scm_change_record_contents               355          1
+send_scm_annotation_md5s                        5          1
+send_analysis_summaries_md5_v1                  5          1
+get_lock                                        4          1
+HashKVS has_key                                 0          1
+find                                            0          6
+read partial table                              0          6
+send_analysis_summaries_contents_v1           404          1
+HashKVS find                                    0          5
+send_desktop_analysis_data_v1                   0          1
+send_timestamp_v1                               0          1
+check_updates_v0                                0          1

@@ -1,0 +1,30 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DC.STRING_BUFFER</checker>
+<type>dc.string_buffer</type>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>buffer_overflow</function>
+<score>100</score>
+<ordered>false</ordered>
+<event>
+<main>true</main>
+<tag>dont_call</tag>
+<description>{CovLStrv2{{t{The destination of a {code{strcpy}} call must have enough space to accept the source.}}}}</description>
+<line>68</line>
+<column>5</column>
+</event>
+<event>
+<remediation>true</remediation>
+<tag>remediation</tag>
+<description>{CovLStrv2{{t{Use {code{strncpy}} instead.}}}}</description>
+<line>68</line>
+<column>5</column>
+</event>
+<extra></extra>
+<subcategory>none</subcategory>
+<antecedentMerge>
+<checker>SECURE_CODING</checker>
+</antecedentMerge>
+</error>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>7</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>cov-build --config config/config.xml --dir idir gcc main.c -o main</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>BD-MB83065</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>macos-arm</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Darwin 25.4.0 arm64</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2025.12.2 (build 1e12482239 p-2025.12-push-44)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>prashant</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/config/config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/idir/emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>1</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>security-da-ms</name>
+        <value>454</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>gcc main.c -o main</value>
+    </metric>
+</metrics>
+</coverity>

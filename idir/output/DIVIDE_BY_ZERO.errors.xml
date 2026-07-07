@@ -1,0 +1,27 @@
+<error>
+<domain>STATIC_C</domain>
+<lang>C++</lang>
+<checker>DIVIDE_BY_ZERO</checker>
+<type>divide_by_zero</type>
+<subtype>undefined_or_crash</subtype>
+<file>/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check/main.c</file>
+<isRapidScan>false</isRapidScan>
+<function>division_by_zero</function>
+<score>100</score>
+<ordered>true</ordered>
+<event>
+<tag>assignment</tag>
+<description>{CovLStrv2{{t{Assigning: {0} {1}= {2}.}{{code{b}}}{}{{code{0}}}}}}</description>
+<line>56</line>
+<column>5</column>
+</event>
+<event>
+<main>true</main>
+<tag>divide_by_zero</tag>
+<description>{CovLStrv2{{t{In expression {0}, division by expression {1} which may be zero has undefined behavior.}{{code{a / b}}}{{code{b}}}}}}</description>
+<line>57</line>
+<column>5</column>
+</event>
+<extra>b</extra>
+<subcategory>none</subcategory>
+</error>

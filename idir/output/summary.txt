@@ -1,0 +1,19 @@
+cov-analyze --dir idir --aggressiveness-level high 
+Analysis summary report:
+------------------------
+Files analyzed                 : 1 Total
+    C++                        : 1
+Total LoC input to cov-analyze : 11913
+Functions analyzed             : 13
+Paths analyzed                 : 25
+Time taken by analysis         : 00:00:03
+Defect occurrences found       : 11 Total
+                                  1 BAD_FREE
+                                  1 DC.STRING_BUFFER
+                                  1 DIVIDE_BY_ZERO
+                                  1 FORWARD_NULL
+                                  1 NULL_RETURNS
+                                  2 OVERRUN
+                                  1 RESOURCE_LEAK
+                                  1 UNINIT
+                                  2 USE_AFTER_FREE

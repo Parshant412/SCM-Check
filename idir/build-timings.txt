@@ -1,0 +1,35 @@
+# Version: 1e12482239 p-2025.12-push-44
+# Command Line: cov-build --config config/config.xml --dir idir gcc main.c -o main
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                              7377          1
+  create_or_open emit DB                  5          1
+    open emit DB                          5          1
+  add_string_to_table                     0         11
+  addEmitFileName                         0          1
+  addEnvironmentVars                      2          1
+    add_string_to_table                   2         41
+  Prepare capture                       888          1
+  parse_xml_config_file                   3          2
+  Running build command                5797          1
+  generate_generic_compiler_map         205          1
+    handle_derived_compiler              21         17
+  SecurityDA                            454          1
+  TUInfo::getPrimarySFRow                 0          1
+  (left over)                            23
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                              7377          1
+parse_xml_config_file                     3          2
+create_or_open emit DB                    5          1
+open emit DB                              5          1
+add_string_to_table                       2         52
+addEmitFileName                           0          1
+addEnvironmentVars                        2          1
+Prepare capture                         888          1
+Running build command                  5797          1
+generate_generic_compiler_map           205          1
+handle_derived_compiler                  21         17
+SecurityDA                              454          1
+TUInfo::getPrimarySFRow                   0          1

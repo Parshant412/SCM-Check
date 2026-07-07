@@ -1,0 +1,12 @@
+Native Compiler invocation: /usr/bin/gcc main.c -o main
+Working directory: /Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check
+Comptype: clangcc:apple
+* Configuring /usr/bin/gcc as a C compiler
+* Configuring /usr/bin/gcc as a C++ compiler
+* Configuring /usr/bin/gcc as a C compiler
+* Configuring /usr/bin/gcc as an Objective-C compiler
+* Configuring /usr/bin/gcc as an Objective-C++ compiler
+* Configuring /usr/bin/g++ as a C++ compiler
+* Configuring /usr/bin/g++ as a C compiler
+* Configuring /usr/bin/g++ as an Objective-C compiler
+* Configuring /usr/bin/g++ as an Objective-C++ compiler

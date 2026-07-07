@@ -1,0 +1,1186 @@
+Getting compiler identification output with: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.m
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.m
+int main() {} 
+
+**** END source file ***
+pipe_command: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.m 
+pipe_commands starting: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.m 
+**** BEGIN FILE output: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.output
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+**** Compiler identification output begin ****
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+**** Compiler identification output end ****
+**** BEGIN PROBE run_test_sanity ****
+[STATUS] clangobjc_apple-config-0: Running sanity tests on native compiler
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/simple.m
+int x;
+
+**** END FILE source file ***
+pipe_command: /usr/bin/gcc -c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/simple.m 
+pipe_commands starting: /usr/bin/gcc -c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/simple.m 
+**** BEGIN FILE stdout: 
+
+**** END FILE stdout ***
+**** BEGIN FILE stderr: 
+
+**** END FILE stderr ***
+Test succeded
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/does_not_compile.m
+#x
+int a b c d;
+
+**** END FILE source file ***
+pipe_command: /usr/bin/gcc -c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/does_not_compile.m 
+pipe_commands starting: /usr/bin/gcc -c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/does_not_compile.m 
+**** BEGIN FILE stdout: 
+
+**** END FILE stdout ***
+**** BEGIN FILE stderr: 
+/var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/does_not_compile.m:1:2: error: invalid preprocessing directive
+    1 | #x
+      |  ^
+/var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/does_not_compile.m:2:6: error: expected ';' after top level declarator
+    2 | int a b c d;
+      |      ^
+      |      ;
+2 errors generated.
+
+**** END FILE stderr ***
+Test failed
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/stddef.m
+#include <stddef.h>
+struct mystruct {
+  int field1;
+  int field2;
+} var;
+size_t sz = sizeof(struct mystruct);
+ptrdiff_t pd;
+void func() {
+  pd = &var.field1 - &var.field2;
+}
+
+
+**** END FILE source file ***
+pipe_command: /usr/bin/gcc -c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/stddef.m 
+pipe_commands starting: /usr/bin/gcc -c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/stddef.m 
+**** BEGIN FILE stdout: 
+
+**** END FILE stdout ***
+**** BEGIN FILE stderr: 
+
+**** END FILE stderr ***
+Test succeded
+**** END PROBE run_test_sanity ****
+**** BEGIN PROBE get_version_switch_output ****
+Version switch: --version
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.m
+int main() {} 
+
+**** END source file ***
+pipe_command: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.m 
+pipe_commands starting: /usr/bin/gcc --version /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/test.m 
+**** BEGIN FILE output: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/version_output
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+**** END PROBE get_version_switch_output ****
+Version string before regex:  4.8.0
+Attempting to match the following regex:  .*based on LLVM ([0-9]+\.[0-9]+(\.[0-9]+)?).*
+Attempting to match the following regex:  ^(?:(?!Apple)).*?clang version ([0-9]+\.[0-9]+(\.[0-9]+)?).*
+Attempting to match the following regex:  .*Snapdragon LLVM ARM Compiler ([0-9]+\.[0-9]+(\.[0-9]+)?).*
+Attempting to match the following regex:  Apple clang version 17\.[0-9](\.[0-9]+)?.*
+Attempting to match the following regex:  Apple clang version 16\.[0-9](\.[0-9]+)?.*
+Attempting to match the following regex:  Apple clang version 15\.[0-9](\.[0-9]+)?.*
+Attempting to match the following regex:  Apple clang version 14\.[0-9](\.[0-9]+)?.*
+Attempting to match the following regex:  Apple clang version 13\.[0-9](\.[0-9]+)?.*
+Attempting to match the following regex:  Apple clang version 12\.[1-9](\.[0-9]+)?.*
+Attempting to match the following regex:  Apple clang version 12\.0\.[5-9]+.*
+Attempting to match the following regex:  Apple clang version 12\.0(\.[0-4])?.*
+Attempting to match the following regex:  Apple clang version 11\.([0-9]+)(\.[0-9]+)?.*
+Attempting to match the following regex:  Apple LLVM version 10\.([0-9]+)(\.[0-9]+)?.*
+Attempting to match the following regex:  Apple LLVM version 9\.([1-9]+)(\.[0-9]+)?.*
+Attempting to match the following regex:  Apple LLVM version 9\.([0]+)(\.[0-9]+)?.*
+Attempting to match the following regex:  Apple LLVM version 8\.([0-9]+)(\.[0-9]+)?.*
+Attempting to match the following regex:  Apple LLVM version 7\.[3-9](\.[0-9]+)?.*
+Attempting to match the following regex:  Apple LLVM version 7\.[0-2](\.[0-9]+)?.*
+Compiler version found: 4.8.0
+run_comp_tests: no defined custom tests
+**** BEGIN PROBE get_standard_includes ****
+Dryrun command: /usr/bin/gcc -E -v /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m
+
+**** END source file ***
+pipe_command: /usr/bin/gcc -E -v /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m 
+pipe_commands starting: /usr/bin/gcc -E -v /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m 
+**** BEGIN FILE output: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.output
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name empty.m -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -fno-sized-deallocation -target-sdk-version=26.4 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check" -target-linker-version 1266.8 -v "-fcoverage-compilation-dir=/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fobjc-runtime=macosx-26.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o - -x objective-c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m
+clang -cc1 version 21.0.0 (clang-2100.0.123.102) default target x86_64-apple-darwin25.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+End of search list.
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+Apple clang version 21.0.0 (clang-2100.0.123.102)
+Target: x86_64-apple-darwin25.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -E -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name empty.m -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -fno-sized-deallocation -target-sdk-version=26.4 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check" -target-linker-version 1266.8 -v "-fcoverage-compilation-dir=/Users/prashant/Downloads/Case investigation/03698331/my_own_testing/SCM-Check" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fobjc-runtime=macosx-26.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o - -x objective-c /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m
+clang -cc1 version 21.0.0 (clang-2100.0.123.102) default target x86_64-apple-darwin25.4.0
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+End of search list.
+
+**** END FILE error ***
+Dryrun gcc found sys include path: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+Dryrun gcc found sys include path: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include
+Dryrun gcc found sys include path: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+Dryrun gcc found sys include path: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+Dryrun gcc found sys include path: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+Dryrun gcc headers found: 5
+**** END PROBE get_standard_includes ****
+compiler_prober_t::make_abs_preproc_command
+ cmd: /usr/bin/gcc
+/usr/bin/gcc -dM -E /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m
+
+
+**** END source file ***
+pipe_command: /usr/bin/gcc -dM -E /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m 
+pipe_commands starting: /usr/bin/gcc -dM -E /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.m 
+**** BEGIN FILE output: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/empty.output
+#define IBAction void)__attribute__((ibaction)
+#define IBInspectable 
+#define IBOutlet __attribute__((iboutlet))
+#define IBOutletCollection(ClassName) __attribute__((iboutletcollection(ClassName)))
+#define IB_DESIGNABLE 
+#define OBJC_NEW_PROPERTIES 1
+#define OBJC_ZEROCOST_EXCEPTIONS 1
+#define TARGET_IPHONE_SIMULATOR 0
+#define TARGET_OS_ARROW 0
+#define TARGET_OS_BRIDGE 0
+#define TARGET_OS_DRIVERKIT 0
+#define TARGET_OS_EMBEDDED 0
+#define TARGET_OS_IOS 0
+#define TARGET_OS_IOSMAC 0
+#define TARGET_OS_IPHONE 0
+#define TARGET_OS_LINUX 0
+#define TARGET_OS_MAC 1
+#define TARGET_OS_MACCATALYST 0
+#define TARGET_OS_NANO 0
+#define TARGET_OS_OSX 1
+#define TARGET_OS_SIMULATOR 0
+#define TARGET_OS_TV 0
+#define TARGET_OS_UEFI 0
+#define TARGET_OS_UIKITFORMAC 0
+#define TARGET_OS_UNIX 0
+#define TARGET_OS_VISION 0
+#define TARGET_OS_WATCH 0
+#define TARGET_OS_WIN32 0
+#define TARGET_OS_WINDOWS 0
+#define TARGET_OS_XR 0
+#define _HAS_BUILTIN_AVAILABLE_FEATS 1
+#define _LP64 1
+#define __APPLE_CC__ 6000
+#define __APPLE__ 1
+#define __ATOMIC_ACQUIRE 2
+#define __ATOMIC_ACQ_REL 4
+#define __ATOMIC_CONSUME 1
+#define __ATOMIC_RELAXED 0
+#define __ATOMIC_RELEASE 3
+#define __ATOMIC_SEQ_CST 5
+#define __BIGGEST_ALIGNMENT__ 16
+#define __BITINT_MAXWIDTH__ 8388608
+#define __BLOCKS__ 1
+#define __BOOL_WIDTH__ 1
+#define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
+#define __CHAR16_TYPE__ unsigned short
+#define __CHAR32_TYPE__ unsigned int
+#define __CHAR_BIT__ 8
+#define __CLANG_ATOMIC_BOOL_LOCK_FREE 2
+#define __CLANG_ATOMIC_CHAR16_T_LOCK_FREE 2
+#define __CLANG_ATOMIC_CHAR32_T_LOCK_FREE 2
+#define __CLANG_ATOMIC_CHAR_LOCK_FREE 2
+#define __CLANG_ATOMIC_INT_LOCK_FREE 2
+#define __CLANG_ATOMIC_LLONG_LOCK_FREE 2
+#define __CLANG_ATOMIC_LONG_LOCK_FREE 2
+#define __CLANG_ATOMIC_POINTER_LOCK_FREE 2
+#define __CLANG_ATOMIC_SHORT_LOCK_FREE 2
+#define __CLANG_ATOMIC_WCHAR_T_LOCK_FREE 2
+#define __CONSTANT_CFSTRINGS__ 1
+#define __DBL_DECIMAL_DIG__ 17
+#define __DBL_DENORM_MIN__ 4.9406564584124654e-324
+#define __DBL_DIG__ 15
+#define __DBL_EPSILON__ 2.2204460492503131e-16
+#define __DBL_HAS_DENORM__ 1
+#define __DBL_HAS_INFINITY__ 1
+#define __DBL_HAS_QUIET_NAN__ 1
+#define __DBL_MANT_DIG__ 53
+#define __DBL_MAX_10_EXP__ 308
+#define __DBL_MAX_EXP__ 1024
+#define __DBL_MAX__ 1.7976931348623157e+308
+#define __DBL_MIN_10_EXP__ (-307)
+#define __DBL_MIN_EXP__ (-1021)
+#define __DBL_MIN__ 2.2250738585072014e-308
+#define __DBL_NORM_MAX__ 1.7976931348623157e+308
+#define __DECIMAL_DIG__ __LDBL_DECIMAL_DIG__
+#define __DYNAMIC__ 1
+#define __ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__ 260000
+#define __ENVIRONMENT_OS_VERSION_MIN_REQUIRED__ 260000
+#define __EXCEPTIONS 1
+#define __FINITE_MATH_ONLY__ 0
+#define __FLT16_DECIMAL_DIG__ 5
+#define __FLT16_DENORM_MIN__ 5.9604644775390625e-8F16
+#define __FLT16_DIG__ 3
+#define __FLT16_EPSILON__ 9.765625e-4F16
+#define __FLT16_HAS_DENORM__ 1
+#define __FLT16_HAS_INFINITY__ 1
+#define __FLT16_HAS_QUIET_NAN__ 1
+#define __FLT16_MANT_DIG__ 11
+#define __FLT16_MAX_10_EXP__ 4
+#define __FLT16_MAX_EXP__ 16
+#define __FLT16_MAX__ 6.5504e+4F16
+#define __FLT16_MIN_10_EXP__ (-4)
+#define __FLT16_MIN_EXP__ (-13)
+#define __FLT16_MIN__ 6.103515625e-5F16
+#define __FLT16_NORM_MAX__ 6.5504e+4F16
+#define __FLT_DECIMAL_DIG__ 9
+#define __FLT_DENORM_MIN__ 1.40129846e-45F
+#define __FLT_DIG__ 6
+#define __FLT_EPSILON__ 1.19209290e-7F
+#define __FLT_HAS_DENORM__ 1
+#define __FLT_HAS_INFINITY__ 1
+#define __FLT_HAS_QUIET_NAN__ 1
+#define __FLT_MANT_DIG__ 24
+#define __FLT_MAX_10_EXP__ 38
+#define __FLT_MAX_EXP__ 128
+#define __FLT_MAX__ 3.40282347e+38F
+#define __FLT_MIN_10_EXP__ (-37)
+#define __FLT_MIN_EXP__ (-125)
+#define __FLT_MIN__ 1.17549435e-38F
+#define __FLT_NORM_MAX__ 3.40282347e+38F
+#define __FLT_RADIX__ 2
+#define __FPCLASS_NEGINF 0x0004
+#define __FPCLASS_NEGNORMAL 0x0008
+#define __FPCLASS_NEGSUBNORMAL 0x0010
+#define __FPCLASS_NEGZERO 0x0020
+#define __FPCLASS_POSINF 0x0200
+#define __FPCLASS_POSNORMAL 0x0100
+#define __FPCLASS_POSSUBNORMAL 0x0080
+#define __FPCLASS_POSZERO 0x0040
+#define __FPCLASS_QNAN 0x0002
+#define __FPCLASS_SNAN 0x0001
+#define __FXSR__ 1
+#define __GCC_ASM_FLAG_OUTPUTS__ 1
+#define __GCC_ATOMIC_BO
+
+ <truncated>
+
+_UINT64_C(c) c##ULL
+#define __UINT64_C_SUFFIX__ ULL
+#define __UINT64_FMTX__ "llX"
+#define __UINT64_FMTo__ "llo"
+#define __UINT64_FMTu__ "llu"
+#define __UINT64_FMTx__ "llx"
+#define __UINT64_MAX__ 18446744073709551615ULL
+#define __UINT64_TYPE__ long long unsigned int
+#define __UINT8_C(c) c
+#define __UINT8_C_SUFFIX__ 
+#define __UINT8_FMTX__ "hhX"
+#define __UINT8_FMTo__ "hho"
+#define __UINT8_FMTu__ "hhu"
+#define __UINT8_FMTx__ "hhx"
+#define __UINT8_MAX__ 255
+#define __UINT8_TYPE__ unsigned char
+#define __UINTMAX_C(c) c##UL
+#define __UINTMAX_C_SUFFIX__ UL
+#define __UINTMAX_FMTX__ "lX"
+#define __UINTMAX_FMTo__ "lo"
+#define __UINTMAX_FMTu__ "lu"
+#define __UINTMAX_FMTx__ "lx"
+#define __UINTMAX_MAX__ 18446744073709551615UL
+#define __UINTMAX_TYPE__ long unsigned int
+#define __UINTMAX_WIDTH__ 64
+#define __UINTPTR_FMTX__ "lX"
+#define __UINTPTR_FMTo__ "lo"
+#define __UINTPTR_FMTu__ "lu"
+#define __UINTPTR_FMTx__ "lx"
+#define __UINTPTR_MAX__ 18446744073709551615UL
+#define __UINTPTR_TYPE__ long unsigned int
+#define __UINTPTR_WIDTH__ 64
+#define __UINT_FAST16_FMTX__ "hX"
+#define __UINT_FAST16_FMTo__ "ho"
+#define __UINT_FAST16_FMTu__ "hu"
+#define __UINT_FAST16_FMTx__ "hx"
+#define __UINT_FAST16_MAX__ 65535
+#define __UINT_FAST16_TYPE__ unsigned short
+#define __UINT_FAST32_FMTX__ "X"
+#define __UINT_FAST32_FMTo__ "o"
+#define __UINT_FAST32_FMTu__ "u"
+#define __UINT_FAST32_FMTx__ "x"
+#define __UINT_FAST32_MAX__ 4294967295U
+#define __UINT_FAST32_TYPE__ unsigned int
+#define __UINT_FAST64_FMTX__ "llX"
+#define __UINT_FAST64_FMTo__ "llo"
+#define __UINT_FAST64_FMTu__ "llu"
+#define __UINT_FAST64_FMTx__ "llx"
+#define __UINT_FAST64_MAX__ 18446744073709551615ULL
+#define __UINT_FAST64_TYPE__ long long unsigned int
+#define __UINT_FAST8_FMTX__ "hhX"
+#define __UINT_FAST8_FMTo__ "hho"
+#define __UINT_FAST8_FMTu__ "hhu"
+#define __UINT_FAST8_FMTx__ "hhx"
+#define __UINT_FAST8_MAX__ 255
+#define __UINT_FAST8_TYPE__ unsigned char
+#define __UINT_LEAST16_FMTX__ "hX"
+#define __UINT_LEAST16_FMTo__ "ho"
+#define __UINT_LEAST16_FMTu__ "hu"
+#define __UINT_LEAST16_FMTx__ "hx"
+#define __UINT_LEAST16_MAX__ 65535
+#define __UINT_LEAST16_TYPE__ unsigned short
+#define __UINT_LEAST32_FMTX__ "X"
+#define __UINT_LEAST32_FMTo__ "o"
+#define __UINT_LEAST32_FMTu__ "u"
+#define __UINT_LEAST32_FMTx__ "x"
+#define __UINT_LEAST32_MAX__ 4294967295U
+#define __UINT_LEAST32_TYPE__ unsigned int
+#define __UINT_LEAST64_FMTX__ "llX"
+#define __UINT_LEAST64_FMTo__ "llo"
+#define __UINT_LEAST64_FMTu__ "llu"
+#define __UINT_LEAST64_FMTx__ "llx"
+#define __UINT_LEAST64_MAX__ 18446744073709551615ULL
+#define __UINT_LEAST64_TYPE__ long long unsigned int
+#define __UINT_LEAST8_FMTX__ "hhX"
+#define __UINT_LEAST8_FMTo__ "hho"
+#define __UINT_LEAST8_FMTu__ "hhu"
+#define __UINT_LEAST8_FMTx__ "hhx"
+#define __UINT_LEAST8_MAX__ 255
+#define __UINT_LEAST8_TYPE__ unsigned char
+#define __USER_LABEL_PREFIX__ _
+#define __VERSION__ "Apple LLVM 21.0.0 (clang-2100.0.123.102)"
+#define __WCHAR_MAX__ 2147483647
+#define __WCHAR_TYPE__ int
+#define __WCHAR_WIDTH__ 32
+#define __WINT_MAX__ 2147483647
+#define __WINT_TYPE__ int
+#define __WINT_WIDTH__ 32
+#define __amd64 1
+#define __amd64__ 1
+#define __apple_build_version__ 21000099
+#define __autoreleasing __attribute__((objc_ownership(autoreleasing)))
+#define __block __attribute__((__blocks__(byref)))
+#define __clang__ 1
+#define __clang_literal_encoding__ "UTF-8"
+#define __clang_major__ 21
+#define __clang_minor__ 0
+#define __clang_patchlevel__ 0
+#define __clang_version__ "21.0.0 (clang-2100.0.123.102)"
+#define __clang_wide_literal_encoding__ "UTF-32"
+#define __code_model_small__ 1
+#define __core2 1
+#define __core2__ 1
+#define __llvm__ 1
+#define __nonnull _Nonnull
+#define __null_unspecified _Null_unspecified
+#define __nullable _Nullable
+#define __pic__ 2
+#define __seg_fs __attribute__((address_space(257)))
+#define __seg_gs __attribute__((address_space(256)))
+#define __strong __attribute__((objc_ownership(strong)))
+#define __tune_core2__ 1
+#define __unsafe_unretained __attribute__((objc_ownership(none)))
+#define __weak __attribute__((objc_ownership(weak)))
+#define __x86_64 1
+#define __x86_64__ 1
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+Skipping looking for macros in standard headers.  The header scan probe has been disabled by the no header scan option.
+**** BEGIN PROBE get_macros ****
+[STATUS] clangobjc_apple-config-0: Retrieving values for macros
+compiler_prober_t::make_abs_preproc_command
+ cmd: /usr/bin/gcc
+/usr/bin/gcc -E -E /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/macros.m
+**** BEGIN FILE source file: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/macros.m
+#ifdef __STDCPP_DEFAULT_NEW_ALIGNMENT__
+__coverity_macro __STDCPP_DEFAULT_NEW_ALIGNMENT__
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_aggregate_bases
+__coverity_macro __cpp_aggregate_bases
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_aggregate_nsdmi
+__coverity_macro __cpp_aggregate_nsdmi
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_aggregate_paren_init
+__coverity_macro __cpp_aggregate_paren_init
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_alias_templates
+__coverity_macro __cpp_alias_templates
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_aligned_new
+__coverity_macro __cpp_aligned_new
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_attributes
+__coverity_macro __cpp_attributes
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_binary_literals
+__coverity_macro __cpp_binary_literals
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_capture_star_this
+__coverity_macro __cpp_capture_star_this
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_char8_t
+__coverity_macro __cpp_char8_t
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_concepts
+__coverity_macro __cpp_concepts
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_conditional_explicit
+__coverity_macro __cpp_conditional_explicit
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_consteval
+__coverity_macro __cpp_consteval
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_constexpr
+__coverity_macro __cpp_constexpr
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_constexpr_dynamic_alloc
+__coverity_macro __cpp_constexpr_dynamic_alloc
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_constexpr_in_decltype
+__coverity_macro __cpp_constexpr_in_decltype
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_constinit
+__coverity_macro __cpp_constinit
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_coroutines
+__coverity_macro __cpp_coroutines
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_decltype
+__coverity_macro __cpp_decltype
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_decltype_auto
+__coverity_macro __cpp_decltype_auto
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_deduction_guides
+__coverity_macro __cpp_deduction_guides
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_delegating_constructors
+__coverity_macro __cpp_delegating_constructors
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_designated_initializers
+__coverity_macro __cpp_designated_initializers
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_enumerator_attributes
+__coverity_macro __cpp_enumerator_attributes
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_exceptions
+__coverity_macro __cpp_exceptions
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_experimental_concepts
+__coverity_macro __cpp_experimental_concepts
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_explicit_bool
+__coverity_macro __cpp_explicit_bool
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_explicit_conversion
+__coverity_macro __cpp_explicit_conversion
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_fold_expressions
+__coverity_macro __cpp_fold_expressions
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_generic_lambdas
+__coverity_macro __cpp_generic_lambdas
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_guaranteed_copy_elision
+__coverity_macro __cpp_guaranteed_copy_elision
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_hex_float
+__coverity_macro __cpp_hex_float
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_if_constexpr
+__coverity_macro __cpp_if_constexpr
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_impl_coroutine
+__coverity_macro __cpp_impl_coroutine
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_impl_destroying_delete
+__coverity_macro __cpp_impl_destroying_delete
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_impl_three_way_comparison
+__coverity_macro __cpp_impl_three_way_comparison
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_inheriting_constructors
+__coverity_macro __cpp_inheriting_constructors
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_init_captures
+__coverity_macro __cpp_init_captures
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_initializer_lists
+__coverity_macro __cpp_initializer_lists
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_inline_variables
+__coverity_macro __cpp_inline_variables
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_lambdas
+__coverity_macro __cpp_lambdas
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_modules
+__coverity_macro __cpp_modules
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_namespace_attributes
+__coverity_macro __cpp_namespace_attributes
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_nested_namespace_definitions
+__coverity_macro __cpp_nested_namespace_definitions
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_noexcept_function_type
+__coverity_macro __cpp_noexcept_function_type
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_nontype_template_args
+__coverity_macro __cpp_nontype_template_args
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_nontype_template_parameter_auto
+__coverity_macro __cpp_nontype_template_parameter_auto
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_nontype_template_parameter_class
+__coverity_macro __cpp_nontype_template_parameter_class
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_nsdmi
+__coverity_macro __cpp_nsdmi
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_range_based_for
+__coverity_macro __cpp_range_based_for
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_raw_strings
+__coverity_macro __cpp_raw_strings
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_ref_qualifiers
+__coverity_macro __cpp_ref_qualifiers
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_return_type_deduction
+__coverity_macro __cpp_return_type_deduction
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_rtti
+__coverity_macro __cpp_rtti
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_runtime_arrays
+__coverity_macro __cpp_runtime_arrays
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_rvalue_reference
+__coverity_macro __cpp_rvalue_reference
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_rvalue_references
+__coverity_macro __cpp_rvalue_references
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_size_t_suffix
+__coverity_macro __cpp_size_t_suffix
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_sized_deallocation
+__coverity_macro __cpp_sized_deallocation
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_static_assert
+__coverity_macro __cpp_static_assert
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_structured_bindings
+__coverity_macro __cpp_structured_bindings
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_template_template_args
+__coverity_macro __cpp_template_template_args
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_threadsafe_static_init
+__coverity_macro __cpp_threadsafe_static_init
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_transactional_memory
+__coverity_macro __cpp_transactional_memory
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_unicode_characters
+__coverity_macro __cpp_unicode_characters
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_unicode_literals
+__coverity_macro __cpp_unicode_literals
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_user_defined_literals
+__coverity_macro __cpp_user_defined_literals
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_using_enum
+__coverity_macro __cpp_using_enum
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_variable_templates
+__coverity_macro __cpp_variable_templates
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_variadic_templates
+__coverity_macro __cpp_variadic_templates
+#else
+__the_symbol_is_not_defined__
+#endif
+#ifdef __cpp_variadic_using
+__coverity_macro __cpp_variadic_using
+#else
+__the_symbol_is_not_defined__
+#endif
+
+**** END source file ***
+pipe_command: /usr/bin/gcc -E -E /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/macros.m 
+pipe_commands starting: /usr/bin/gcc -E -E /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/macros.m 
+**** BEGIN FILE output: /var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/pp_out
+# 1 "/var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/macros.m"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 457 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "/var/folders/dw/195xz37s0zgbpll65rq5hqzc0000gp/T/cov-prashant/c7e6aae1020ddc5e964c8669a6915b69/cov-prashant/d9214791dfb8735b43736f4b64502231/macros.m" 2
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+
+
+
+__the_symbol_is_not_defined__
+
+**** END FILE output ***
+**** BEGIN FILE error: 
+
+**** END FILE error ***
+**** END PROBE get_macros ****
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/llvm/cc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/llvm/clang/cc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/compiler-compat-clangobjc_llvm.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/compiler-compat-clangobjc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/llvm/compiler-compat-clangobjc_llvm.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/llvm/compiler-compat-clangobjc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/compiler-compat-clang-common.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/apple/cc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/apple/clang/cc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/compiler-compat-clangobjc_apple.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/compiler-compat-clangobjc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/apple/compiler-compat-clangobjc_apple.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/apple/compiler-compat-clangobjc.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/compiler-compat-clang-common.h
+Failed to find header /Users/prashant/Coverity/Coverity_install/config/templates/clang/apple/compiler-compat-clang-common.h

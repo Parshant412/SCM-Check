@@ -1,0 +1,10 @@
+{
+  "covAnalyzeArgs" : [
+    "--spotbugs-include",
+    "coverity-default",
+    "--aggressiveness-level",
+    "high"
+  ],
+  "fileOptions" : [],
+  "fileCheckerOptions" : []
+}

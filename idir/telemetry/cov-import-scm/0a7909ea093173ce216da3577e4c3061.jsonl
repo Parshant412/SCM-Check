@@ -1,0 +1,2 @@
+{"type":"Header","formatVersion":1,"timestamp":"2026-05-14T09:30:18Z","context":{"invocID":"0a7909ea093173ce216da3577e4c3061","service.name":"cov-import-scm","external_version":"2025.12.2","internal_version":"p-2025.12-push-44"}}
+{"type":"Event","name":"cov-import-scm","timestamp":"2026-05-14T09:30:18Z","dimensions":{"scm-type":"git"},"measurements":{}}
